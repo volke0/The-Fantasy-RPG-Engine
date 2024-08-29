@@ -1,0 +1,996 @@
+{
+    "hp": [
+        {
+            "lvl": 1,
+            "hp_gain": 0,
+            "total_hp": 150
+        },
+        {
+            "lvl": 2,
+            "hp_gain": 9,
+            "total_hp": 159
+        },
+        {
+            "lvl": 3,
+            "hp_gain": 14,
+            "total_hp": 173
+        },
+        {
+            "lvl": 4,
+            "hp_gain": 11,
+            "total_hp": 184
+        },
+        {
+            "lvl": 5,
+            "hp_gain": 11,
+            "total_hp": 195
+        },
+        {
+            "lvl": 6,
+            "hp_gain": 16,
+            "total_hp": 211
+        },
+        {
+            "lvl": 7,
+            "hp_gain": 8,
+            "total_hp": 219
+        },
+        {
+            "lvl": 8,
+            "hp_gain": 11,
+            "total_hp": 230
+        },
+        {
+            "lvl": 9,
+            "hp_gain": 19,
+            "total_hp": 249
+        },
+        {
+            "lvl": 10,
+            "hp_gain": 9,
+            "total_hp": 258
+        },
+        {
+            "lvl": 11,
+            "hp_gain": 18,
+            "total_hp": 276
+        },
+        {
+            "lvl": 12,
+            "hp_gain": 12,
+            "total_hp": 288
+        },
+        {
+            "lvl": 13,
+            "hp_gain": 12,
+            "total_hp": 300
+        },
+        {
+            "lvl": 14,
+            "hp_gain": 12,
+            "total_hp": 312
+        },
+        {
+            "lvl": 15,
+            "hp_gain": 13,
+            "total_hp": 325
+        },
+        {
+            "lvl": 16,
+            "hp_gain": 10,
+            "total_hp": 335
+        },
+        {
+            "lvl": 17,
+            "hp_gain": 16,
+            "total_hp": 351
+        },
+        {
+            "lvl": 18,
+            "hp_gain": 20,
+            "total_hp": 371
+        },
+        {
+            "lvl": 19,
+            "hp_gain": 18,
+            "total_hp": 389
+        },
+        {
+            "lvl": 20,
+            "hp_gain": 17,
+            "total_hp": 406
+        },
+        {
+            "lvl": 21,
+            "hp_gain": 15,
+            "total_hp": 421
+        },
+        {
+            "lvl": 22,
+            "hp_gain": 11,
+            "total_hp": 432
+        },
+        {
+            "lvl": 23,
+            "hp_gain": 14,
+            "total_hp": 446
+        },
+        {
+            "lvl": 24,
+            "hp_gain": 13,
+            "total_hp": 459
+        },
+        {
+            "lvl": 25,
+            "hp_gain": 14,
+            "total_hp": 473
+        },
+        {
+            "lvl": 26,
+            "hp_gain": 13,
+            "total_hp": 486
+        },
+        {
+            "lvl": 27,
+            "hp_gain": 12,
+            "total_hp": 498
+        },
+        {
+            "lvl": 28,
+            "hp_gain": 10,
+            "total_hp": 508
+        },
+        {
+            "lvl": 29,
+            "hp_gain": 16,
+            "total_hp": 524
+        },
+        {
+            "lvl": 30,
+            "hp_gain": 18,
+            "total_hp": 542
+        },
+        {
+            "lvl": 31,
+            "hp_gain": 38,
+            "total_hp": 580
+        },
+        {
+            "lvl": 32,
+            "hp_gain": 66,
+            "total_hp": 646
+        },
+        {
+            "lvl": 33,
+            "hp_gain": 34,
+            "total_hp": 680
+        },
+        {
+            "lvl": 34,
+            "hp_gain": 42,
+            "total_hp": 722
+        },
+        {
+            "lvl": 35,
+            "hp_gain": 41,
+            "total_hp": 763
+        },
+        {
+            "lvl": 36,
+            "hp_gain": 34,
+            "total_hp": 797
+        },
+        {
+            "lvl": 37,
+            "hp_gain": 35,
+            "total_hp": 832
+        },
+        {
+            "lvl": 38,
+            "hp_gain": 61,
+            "total_hp": 893
+        },
+        {
+            "lvl": 39,
+            "hp_gain": 31,
+            "total_hp": 924
+        },
+        {
+            "lvl": 40,
+            "hp_gain": 38,
+            "total_hp": 962
+        },
+        {
+            "lvl": 41,
+            "hp_gain": 37,
+            "total_hp": 999
+        },
+        {
+            "lvl": 42,
+            "hp_gain": 78,
+            "total_hp": 1077
+        },
+        {
+            "lvl": 43,
+            "hp_gain": 38,
+            "total_hp": 1115
+        },
+        {
+            "lvl": 44,
+            "hp_gain": 43,
+            "total_hp": 1158
+        },
+        {
+            "lvl": 45,
+            "hp_gain": 63,
+            "total_hp": 1221
+        },
+        {
+            "lvl": 46,
+            "hp_gain": 52,
+            "total_hp": 1273
+        },
+        {
+            "lvl": 47,
+            "hp_gain": 40,
+            "total_hp": 1313
+        },
+        {
+            "lvl": 48,
+            "hp_gain": 74,
+            "total_hp": 1387
+        },
+        {
+            "lvl": 49,
+            "hp_gain": 79,
+            "total_hp": 1466
+        },
+        {
+            "lvl": 50,
+            "hp_gain": 100,
+            "total_hp": 1566
+        },
+        {
+            "lvl": 51,
+            "hp_gain": 154,
+            "total_hp": 1720
+        },
+        {
+            "lvl": 52,
+            "hp_gain": 70,
+            "total_hp": 1790
+        },
+        {
+            "lvl": 53,
+            "hp_gain": 127,
+            "total_hp": 1917
+        },
+        {
+            "lvl": 54,
+            "hp_gain": 149,
+            "total_hp": 2066
+        },
+        {
+            "lvl": 55,
+            "hp_gain": 78,
+            "total_hp": 2144
+        },
+        {
+            "lvl": 56,
+            "hp_gain": 107,
+            "total_hp": 2251
+        },
+        {
+            "lvl": 57,
+            "hp_gain": 144,
+            "total_hp": 2395
+        },
+        {
+            "lvl": 58,
+            "hp_gain": 82,
+            "total_hp": 2477
+        },
+        {
+            "lvl": 59,
+            "hp_gain": 85,
+            "total_hp": 2562
+        },
+        {
+            "lvl": 60,
+            "hp_gain": 90,
+            "total_hp": 2652
+        },
+        {
+            "lvl": 61,
+            "hp_gain": 120,
+            "total_hp": 2772
+        },
+        {
+            "lvl": 62,
+            "hp_gain": 65,
+            "total_hp": 2837
+        },
+        {
+            "lvl": 63,
+            "hp_gain": 90,
+            "total_hp": 2927
+        },
+        {
+            "lvl": 64,
+            "hp_gain": 88,
+            "total_hp": 3015
+        },
+        {
+            "lvl": 65,
+            "hp_gain": 127,
+            "total_hp": 3142
+        },
+        {
+            "lvl": 66,
+            "hp_gain": 171,
+            "total_hp": 3313
+        },
+        {
+            "lvl": 67,
+            "hp_gain": 174,
+            "total_hp": 3487
+        },
+        {
+            "lvl": 68,
+            "hp_gain": 152,
+            "total_hp": 3639
+        },
+        {
+            "lvl": 69,
+            "hp_gain": 116,
+            "total_hp": 3755
+        },
+        {
+            "lvl": 70,
+            "hp_gain": 167,
+            "total_hp": 3922
+        },
+        {
+            "lvl": 71,
+            "hp_gain": 191,
+            "total_hp": 4113
+        },
+        {
+            "lvl": 72,
+            "hp_gain": 169,
+            "total_hp": 4282
+        },
+        {
+            "lvl": 73,
+            "hp_gain": 170,
+            "total_hp": 4452
+        },
+        {
+            "lvl": 74,
+            "hp_gain": 185,
+            "total_hp": 4637
+        },
+        {
+            "lvl": 75,
+            "hp_gain": 182,
+            "total_hp": 4819
+        },
+        {
+            "lvl": 76,
+            "hp_gain": 173,
+            "total_hp": 4992
+        },
+        {
+            "lvl": 77,
+            "hp_gain": 173,
+            "total_hp": 5165
+        },
+        {
+            "lvl": 78,
+            "hp_gain": 177,
+            "total_hp": 5342
+        },
+        {
+            "lvl": 79,
+            "hp_gain": 196,
+            "total_hp": 5538
+        },
+        {
+            "lvl": 80,
+            "hp_gain": 173,
+            "total_hp": 5711
+        },
+        {
+            "lvl": 81,
+            "hp_gain": 197,
+            "total_hp": 5908
+        },
+        {
+            "lvl": 82,
+            "hp_gain": 175,
+            "total_hp": 6083
+        },
+        {
+            "lvl": 83,
+            "hp_gain": 180,
+            "total_hp": 6263
+        },
+        {
+            "lvl": 84,
+            "hp_gain": 174,
+            "total_hp": 6437
+        },
+        {
+            "lvl": 85,
+            "hp_gain": 186,
+            "total_hp": 6623
+        },
+        {
+            "lvl": 86,
+            "hp_gain": 199,
+            "total_hp": 6822
+        },
+        {
+            "lvl": 87,
+            "hp_gain": 177,
+            "total_hp": 6999
+        },
+        {
+            "lvl": 88,
+            "hp_gain": 190,
+            "total_hp": 7189
+        },
+        {
+            "lvl": 89,
+            "hp_gain": 193,
+            "total_hp": 7382
+        },
+        {
+            "lvl": 90,
+            "hp_gain": 183,
+            "total_hp": 7565
+        },
+        {
+            "lvl": 91,
+            "hp_gain": 188,
+            "total_hp": 7753
+        },
+        {
+            "lvl": 92,
+            "hp_gain": 209,
+            "total_hp": 7962
+        },
+        {
+            "lvl": 93,
+            "hp_gain": 196,
+            "total_hp": 8158
+        },
+        {
+            "lvl": 94,
+            "hp_gain": 193,
+            "total_hp": 8351
+        },
+        {
+            "lvl": 95,
+            "hp_gain": 214,
+            "total_hp": 8565
+        },
+        {
+            "lvl": 96,
+            "hp_gain": 226,
+            "total_hp": 8791
+        },
+        {
+            "lvl": 97,
+            "hp_gain": 222,
+            "total_hp": 9013
+        },
+        {
+            "lvl": 98,
+            "hp_gain": 205,
+            "total_hp": 9218
+        },
+        {
+            "lvl": 99,
+            "hp_gain": 262,
+            "total_hp": 9480
+        }
+    ],
+    "mp": [
+        {
+            "lvl": 1,
+            "mp_gain": 0,
+            "total_mp": 0
+        },
+        {
+            "lvl": 2,
+            "mp_gain": 5,
+            "total_mp": 5
+        },
+        {
+            "lvl": 3,
+            "mp_gain": 6,
+            "total_mp": 11
+        },
+        {
+            "lvl": 4,
+            "mp_gain": 7,
+            "total_mp": 18
+        },
+        {
+            "lvl": 5,
+            "mp_gain": 8,
+            "total_mp": 26
+        },
+        {
+            "lvl": 6,
+            "mp_gain": 9,
+            "total_mp": 35
+        },
+        {
+            "lvl": 7,
+            "mp_gain": 10,
+            "total_mp": 45
+        },
+        {
+            "lvl": 8,
+            "mp_gain": 11,
+            "total_mp": 56
+        },
+        {
+            "lvl": 9,
+            "mp_gain": 12,
+            "total_mp": 68
+        },
+        {
+            "lvl": 10,
+            "mp_gain": 13,
+            "total_mp": 81
+        },
+        {
+            "lvl": 11,
+            "mp_gain": 14,
+            "total_mp": 95
+        },
+        {
+            "lvl": 12,
+            "mp_gain": 15,
+            "total_mp": 110
+        },
+        {
+            "lvl": 13,
+            "mp_gain": 16,
+            "total_mp": 126
+        },
+        {
+            "lvl": 14,
+            "mp_gain": 17,
+            "total_mp": 143
+        },
+        {
+            "lvl": 15,
+            "mp_gain": 17,
+            "total_mp": 160
+        },
+        {
+            "lvl": 16,
+            "mp_gain": 16,
+            "total_mp": 176
+        },
+        {
+            "lvl": 17,
+            "mp_gain": 15,
+            "total_mp": 191
+        },
+        {
+            "lvl": 18,
+            "mp_gain": 15,
+            "total_mp": 206
+        },
+        {
+            "lvl": 19,
+            "mp_gain": 15,
+            "total_mp": 221
+        },
+        {
+            "lvl": 20,
+            "mp_gain": 15,
+            "total_mp": 236
+        },
+        {
+            "lvl": 21,
+            "mp_gain": 15,
+            "total_mp": 251
+        },
+        {
+            "lvl": 22,
+            "mp_gain": 15,
+            "total_mp": 266
+        },
+        {
+            "lvl": 23,
+            "mp_gain": 15,
+            "total_mp": 281
+        },
+        {
+            "lvl": 24,
+            "mp_gain": 15,
+            "total_mp": 296
+        },
+        {
+            "lvl": 25,
+            "mp_gain": 15,
+            "total_mp": 311
+        },
+        {
+            "lvl": 26,
+            "mp_gain": 14,
+            "total_mp": 325
+        },
+        {
+            "lvl": 27,
+            "mp_gain": 15,
+            "total_mp": 340
+        },
+        {
+            "lvl": 28,
+            "mp_gain": 15,
+            "total_mp": 355
+        },
+        {
+            "lvl": 29,
+            "mp_gain": 15,
+            "total_mp": 370
+        },
+        {
+            "lvl": 30,
+            "mp_gain": 15,
+            "total_mp": 385
+        },
+        {
+            "lvl": 31,
+            "mp_gain": 14,
+            "total_mp": 399
+        },
+        {
+            "lvl": 32,
+            "mp_gain": 13,
+            "total_mp": 412
+        },
+        {
+            "lvl": 33,
+            "mp_gain": 13,
+            "total_mp": 425
+        },
+        {
+            "lvl": 34,
+            "mp_gain": 13,
+            "total_mp": 438
+        },
+        {
+            "lvl": 35,
+            "mp_gain": 13,
+            "total_mp": 451
+        },
+        {
+            "lvl": 36,
+            "mp_gain": 13,
+            "total_mp": 464
+        },
+        {
+            "lvl": 37,
+            "mp_gain": 13,
+            "total_mp": 477
+        },
+        {
+            "lvl": 38,
+            "mp_gain": 13,
+            "total_mp": 490
+        },
+        {
+            "lvl": 39,
+            "mp_gain": 13,
+            "total_mp": 503
+        },
+        {
+            "lvl": 40,
+            "mp_gain": 13,
+            "total_mp": 516
+        },
+        {
+            "lvl": 41,
+            "mp_gain": 12,
+            "total_mp": 528
+        },
+        {
+            "lvl": 42,
+            "mp_gain": 13,
+            "total_mp": 541
+        },
+        {
+            "lvl": 43,
+            "mp_gain": 13,
+            "total_mp": 554
+        },
+        {
+            "lvl": 44,
+            "mp_gain": 12,
+            "total_mp": 566
+        },
+        {
+            "lvl": 45,
+            "mp_gain": 11,
+            "total_mp": 577
+        },
+        {
+            "lvl": 46,
+            "mp_gain": 11,
+            "total_mp": 588
+        },
+        {
+            "lvl": 47,
+            "mp_gain": 11,
+            "total_mp": 599
+        },
+        {
+            "lvl": 48,
+            "mp_gain": 11,
+            "total_mp": 610
+        },
+        {
+            "lvl": 49,
+            "mp_gain": 11,
+            "total_mp": 621
+        },
+        {
+            "lvl": 50,
+            "mp_gain": 11,
+            "total_mp": 632
+        },
+        {
+            "lvl": 51,
+            "mp_gain": 11,
+            "total_mp": 643
+        },
+        {
+            "lvl": 52,
+            "mp_gain": 11,
+            "total_mp": 654
+        },
+        {
+            "lvl": 53,
+            "mp_gain": 11,
+            "total_mp": 665
+        },
+        {
+            "lvl": 54,
+            "mp_gain": 11,
+            "total_mp": 676
+        },
+        {
+            "lvl": 55,
+            "mp_gain": 11,
+            "total_mp": 687
+        },
+        {
+            "lvl": 56,
+            "mp_gain": 11,
+            "total_mp": 698
+        },
+        {
+            "lvl": 57,
+            "mp_gain": 11,
+            "total_mp": 709
+        },
+        {
+            "lvl": 58,
+            "mp_gain": 9,
+            "total_mp": 718
+        },
+        {
+            "lvl": 59,
+            "mp_gain": 9,
+            "total_mp": 727
+        },
+        {
+            "lvl": 60,
+            "mp_gain": 9,
+            "total_mp": 736
+        },
+        {
+            "lvl": 61,
+            "mp_gain": 9,
+            "total_mp": 745
+        },
+        {
+            "lvl": 62,
+            "mp_gain": 9,
+            "total_mp": 754
+        },
+        {
+            "lvl": 63,
+            "mp_gain": 9,
+            "total_mp": 763
+        },
+        {
+            "lvl": 64,
+            "mp_gain": 9,
+            "total_mp": 772
+        },
+        {
+            "lvl": 65,
+            "mp_gain": 9,
+            "total_mp": 781
+        },
+        {
+            "lvl": 66,
+            "mp_gain": 9,
+            "total_mp": 790
+        },
+        {
+            "lvl": 67,
+            "mp_gain": 9,
+            "total_mp": 799
+        },
+        {
+            "lvl": 68,
+            "mp_gain": 9,
+            "total_mp": 808
+        },
+        {
+            "lvl": 69,
+            "mp_gain": 9,
+            "total_mp": 817
+        },
+        {
+            "lvl": 70,
+            "mp_gain": 9,
+            "total_mp": 826
+        },
+        {
+            "lvl": 71,
+            "mp_gain": 8,
+            "total_mp": 834
+        },
+        {
+            "lvl": 72,
+            "mp_gain": 7,
+            "total_mp": 841
+        },
+        {
+            "lvl": 73,
+            "mp_gain": 6,
+            "total_mp": 847
+        },
+        {
+            "lvl": 74,
+            "mp_gain": 7,
+            "total_mp": 854
+        },
+        {
+            "lvl": 75,
+            "mp_gain": 7,
+            "total_mp": 861
+        },
+        {
+            "lvl": 76,
+            "mp_gain": 7,
+            "total_mp": 868
+        },
+        {
+            "lvl": 77,
+            "mp_gain": 7,
+            "total_mp": 875
+        },
+        {
+            "lvl": 78,
+            "mp_gain": 7,
+            "total_mp": 882
+        },
+        {
+            "lvl": 79,
+            "mp_gain": 7,
+            "total_mp": 889
+        },
+        {
+            "lvl": 80,
+            "mp_gain": 7,
+            "total_mp": 896
+        },
+        {
+            "lvl": 81,
+            "mp_gain": 7,
+            "total_mp": 903
+        },
+        {
+            "lvl": 82,
+            "mp_gain": 7,
+            "total_mp": 910
+        },
+        {
+            "lvl": 83,
+            "mp_gain": 7,
+            "total_mp": 917
+        },
+        {
+            "lvl": 84,
+            "mp_gain": 7,
+            "total_mp": 924
+        },
+        {
+            "lvl": 85,
+            "mp_gain": 7,
+            "total_mp": 931
+        },
+        {
+            "lvl": 86,
+            "mp_gain": 6,
+            "total_mp": 937
+        },
+        {
+            "lvl": 87,
+            "mp_gain": 5,
+            "total_mp": 942
+        },
+        {
+            "lvl": 88,
+            "mp_gain": 4,
+            "total_mp": 946
+        },
+        {
+            "lvl": 89,
+            "mp_gain": 5,
+            "total_mp": 951
+        },
+        {
+            "lvl": 90,
+            "mp_gain": 5,
+            "total_mp": 956
+        },
+        {
+            "lvl": 91,
+            "mp_gain": 5,
+            "total_mp": 961
+        },
+        {
+            "lvl": 92,
+            "mp_gain": 5,
+            "total_mp": 966
+        },
+        {
+            "lvl": 93,
+            "mp_gain": 5,
+            "total_mp": 971
+        },
+        {
+            "lvl": 94,
+            "mp_gain": 5,
+            "total_mp": 976
+        },
+        {
+            "lvl": 95,
+            "mp_gain": 5,
+            "total_mp": 981
+        },
+        {
+            "lvl": 96,
+            "mp_gain": 5,
+            "total_mp": 986
+        },
+        {
+            "lvl": 97,
+            "mp_gain": 5,
+            "total_mp": 991
+        },
+        {
+            "lvl": 98,
+            "mp_gain": 5,
+            "total_mp": 996
+        },
+        {
+            "lvl": 99,
+            "mp_gain": 3,
+            "total_mp": 999
+        }
+    ]
+}

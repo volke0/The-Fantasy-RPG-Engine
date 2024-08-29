@@ -1,0 +1,91 @@
+{
+    "Events":
+    [
+        {
+            "OpeningEvent":
+            [
+                {"CHG_LAYER": {"Unit": "party", "Layer": 0}},
+                {"LOAD4": 1, "Location": {"x": 34, "y": 8}},
+                {"LOAD4": 5, "Location": {"x": 36, "y": 8}},
+                {"BEQ": {"VALUE1": "0x2", "VALUE2": 1, "GOTO": 1}},
+                {"ENUT": "0x2"},
+                {"STAL": 30},
+                {"FADU": 16},
+                {"TEXTSHOW": 1},        
+                {"GOTO": 2},      
+                {"LABEL": 1},
+                {"STAL": 30},
+                {"FADU": 16},
+                {"LABEL": 2},
+                {"ENDA": true}
+            ],
+
+            "Trouble1":
+            [
+                {"MUSC": "ff6 The Unforgiven"},
+                {"CAM1": {"x": 33, "y": 8, "speed": 12}},
+                {"STAL": 30},
+                {"TEXTSHOW": 4},
+                {"STAL": 30},
+                {"CAM1": {"Unit": "party", "speed": 12}},
+                {"STAL": 30},
+                {"TEXTSHOW": 5},
+                {"ENDA": true}
+            ],
+
+            "Trouble2":
+            [
+                {"CAM1": {"x": 33, "y": 8, "speed": 8}},
+                {"STAL": 30},
+                {"MOVE": {"Unit": 1, "speed": 12, "x": 28, "y": 8}},
+                {"CHG_DIRECTION": {"Unit": 1, "Direction": "right"}},
+                {"AUTPARTY": 6},
+                {"STAL": 30},
+                {"TEXTSHOW": 6},
+                {"STAL": 30},
+                {"BATTLE": {"enemy_party": "bombo_bandits_i", "music": "ff6 The Decisive Battle"}},
+                {"MUSNF": "ff6 Mt. Koltz"},
+                {"STAL": 30},
+                {"TEXTSHOW": 7},
+				{"STAL": 30},
+                {"CLEAR_UNIT": 5, "ClearAll": true},
+				{"CHG_ANIM": {"Unit": "party", "Animation": "emote_tired", "Flip": true}},
+				{"STAL": 30},
+				{"UNLOCK_ANIM": {"Unit": "party"}},
+                {"ENUT": "RescuedAva", "IsGlobal": true},
+                {"ENDA": true}
+            ],
+
+            "AvaTalkRescued":
+            [
+                {"FACE_UNIT": {"Unit": "party", "Target": 1}},
+                {"STAL": 30},
+                {"TEXTSHOW": 8},
+                {"STAL": 30},
+                {"CHG_DIRECTION": {"Unit": "party", "Direction": "right"}},
+                {"STAL": 30},
+                {"MOVE": {"Unit": 1, "speed": 4, "x": 29, "y": 8}},
+                {"CLEAR_UNIT": 1},
+                {"ENDA": true}
+            ]
+
+        }
+    ],
+
+    "AreaConditions":
+    [
+        {"Type": "Portal", "Portal_ID": 1, "Map": 0, "NextPortal": 1, "Range": {"x1": 1, "y1": 2, "x2": 1, "y2": 2}, "Exit": {"x": 1, "y": 3}, "Direction": "down"},
+        {"Type": "InRange", "Event": "Trouble1", "Completion_Flag": 3, "Range": {"x1": 15, "y1": 0, "x2": 40, "y2": 20}},
+        {"Type": "InRange", "Event": "Trouble2", "Completion_Flag": 4, "Range": {"x1": 29, "y1": 0, "x2": 40, "y2": 20}}
+    ],
+
+    "TalkConditions":
+    [
+        {"Unit": 1, "Event": "AvaTalkRescued", "Condition_Flag": "RescuedAva", "Completion_Flag": "talked_to_ava"}
+    ],
+
+    "AlwaysConditions":
+    [
+        {"Event": "AvaTalkRescued", "Global_Con_Flag": "RescuedAva", "Completion_Flag": "talked_to_ava"}
+    ]
+}

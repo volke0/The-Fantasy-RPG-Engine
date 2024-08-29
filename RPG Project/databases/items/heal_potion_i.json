@@ -1,0 +1,13 @@
+{
+    "c_name": "heal_potion_i",
+    "name": "Heal Potion I",
+    "inventory_usable": true,
+    "description": "Heals the target's HP by~50.",
+    "type": "consumable",
+    "stackable" : true,
+    "sub_type": "heal",
+    "heal_type": "hp",
+    "amount": 50,
+    "animations": "vfx_heal_potion_i",
+    "price": 15
+}

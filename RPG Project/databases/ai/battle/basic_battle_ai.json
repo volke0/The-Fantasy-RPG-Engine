@@ -1,0 +1,13 @@
+{
+    "meta_data": 
+    {
+        "type": "selector", 
+        "targets": "single"
+    },
+
+    "selectors":
+    [
+        {"modes": {"attack": 1.0}},
+        {"target_mode": "random"}
+    ]
+}

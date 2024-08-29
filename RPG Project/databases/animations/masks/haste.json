@@ -1,0 +1,17 @@
+{
+    "Settings":
+    [
+        {
+            "name": "haste"
+        }
+    ],
+
+    "Animation":
+            [
+                {"name": "haste", "mode": "battle", "repeat": true, "palette": "haste"},
+                {"follow_unit": true, "fps": 3, "alpha": 255, "alpha_spd": -11, "alpha_goal": 0},
+                {"follow_unit": true, "fps": 15, "alpha": 0},
+                {"follow_unit": true, "fps": 3, "alpha": 0, "alpha_spd": 11, "alpha_goal": 255},
+                {"follow_unit": true, "fps": 15, "alpha": 255}
+            ]
+}

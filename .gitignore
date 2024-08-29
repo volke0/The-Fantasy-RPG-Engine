@@ -1,0 +1,22 @@
+Binaries
+DerivedDataCache
+Intermediate
+Saved
+Build
+ToDo
+x64
+Release
+resources
+archieve
+stuff
+
+.vscode
+.vs
+vcpkg install list.txt
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace

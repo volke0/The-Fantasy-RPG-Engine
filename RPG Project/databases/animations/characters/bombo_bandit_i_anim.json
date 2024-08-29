@@ -1,0 +1,79 @@
+{
+    "Settings":
+    {
+		"Battle":
+        {
+            "name": "bombo_bandit_i_anim",
+            "graphics": "basic_enemies",
+            "sprite_settings": "basic_enemy_spr",
+            "battle_stand": "bstand",
+            "melee_attack": "melee_attack",
+            "magic_charge": "bstand",
+            "low_hp_stand": "bstand",
+            "battle_wait": "bstand",
+            "item_wait": "bstand",
+            "melee_hurt": "hurt",
+            "dead" : "dead",
+            "magic_attack": "magic_attack",
+            "item_use": "magic_attack",
+            "entrance": "entrance"
+        }
+    },
+
+    "Animations":
+    {
+		"Battle":
+        {
+            "bstand":
+            [
+                {"name": "bstand", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255}
+            ],
+            "magic_attack":
+            [
+                {"name": "bstand", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255, "call_magic": true},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255}
+            ],
+            "dead":
+            [
+                {"name": "dead", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255, "sfx": "enemy_killed", "color_change": "grape_soda"},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255, "alpha_spd": -11, "alpha_goal": 0},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 0}
+            ],
+            "melee_attack":
+            [
+                {"name": "melee_attack", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "change_palette": "enemy_attack", "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "change_palette": "enemy_attack", "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "change_palette": "enemy_attack", "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255, "call_vfx": "dagger_hit_effect", "call_hit": true},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 30}
+            ],
+            "hurt":
+            [
+                {"name": "hurt", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255}
+            ],
+            "entrance":
+            [
+                {"name": "entrance", "mode": "battle", "repeat": false},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": -400, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 30, "fixed_location": true, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 40, "speed_y": 0, "fps": 3, "fixed_location": false, "alpha": 255},
+                {"sheet": "bombo_bandit_i", "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 15, "fixed_location": false, "alpha": 255}
+            ]
+        }
+    }
+}

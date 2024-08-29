@@ -1,0 +1,1026 @@
+{
+    "0": {
+        "text": "...[A]~Where am I?[A]",
+        "GOTO": "ENDA"
+    },
+    "1": {
+        "text": "EEEEEK![A]~Leave me alone![A]~",
+        "GOTO": 2
+    },
+    "2": {
+        "text": "Hehehehe... ~Come here![A]",
+        "GOTO": "ENDA"
+    },
+    "3": {
+        "text": "What is this?[A]~Could come in handy~later...[A]",
+        "GOTO": "ENDA"
+    },
+    "4": {
+        "text": "Ss-tay back!~I'm warning ya![A]~Hehehe it looks like the little~girl is scared![A]~You should have thought twice~before you double crossed the~great Bombo Bandits![A]",
+        "GOTO": "ENDA"
+    },
+    "5": {
+        "text": ".....[A]",
+        "GOTO": "ENDA"
+    },
+    "6": {
+        "text": "Who do you think you are?~Some hero?[A]~Bah I guess we'll have to~whack both of you now.[A]",
+        "GOTO": "ENDA"
+    },
+    "7": {
+        "text": "OOF![A]",
+        "GOTO": "ENDA"
+    },
+    "8": {
+        "text": "Mister Knight, t-thank you for~saving me![A]",
+        "GOTO": 9
+    },
+    "9": {
+        "text": "It was no problem.[A]~However, we should leave before~more reinforcements appear.[A]",
+        "GOTO": 10
+    },
+    "10": {
+        "text": "A-Alright my village is~straight up ahead...[A]",
+        "GOTO": 11
+    },
+    "11": {
+        "text": "I'll protect you and~ensure your safe arrival.[A]",
+        "GOTO": "ENDA"
+    },
+    "12": {
+        "text": "T-Thank you...[A]",
+        "GOTO": "ENDA"
+    },
+    "13": {
+        "text": "ENDED SHOP[A]",
+        "GOTO": "ENDA"
+    },
+    "14": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "15": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "16": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "17": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "18": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "19": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "20": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "21": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "22": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "23": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "24": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "25": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "26": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "27": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "28": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "29": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "30": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "31": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "32": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "33": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "34": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "35": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "36": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "37": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "38": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "39": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "40": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "41": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "42": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "43": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "44": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "45": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "46": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "47": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "48": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "49": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "50": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "51": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "52": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "53": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "54": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "55": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "56": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "57": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "58": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "59": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "60": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "61": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "62": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "63": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "64": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "65": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "66": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "67": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "68": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "69": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "70": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "71": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "72": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "73": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "74": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "75": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "76": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "77": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "78": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "79": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "80": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "81": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "82": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "83": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "84": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "85": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "86": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "87": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "88": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "89": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "90": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "91": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "92": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "93": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "94": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "95": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "96": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "97": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "98": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "99": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "100": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "101": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "102": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "103": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "104": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "105": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "106": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "107": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "108": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "109": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "110": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "111": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "112": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "113": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "114": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "115": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "116": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "117": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "118": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "119": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "120": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "121": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "122": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "123": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "124": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "125": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "126": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "127": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "128": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "129": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "130": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "131": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "132": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "133": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "134": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "135": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "136": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "137": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "138": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "139": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "140": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "141": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "142": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "143": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "144": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "145": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "146": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "147": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "148": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "149": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "150": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "151": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "152": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "153": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "154": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "155": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "156": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "157": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "158": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "159": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "160": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "161": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "162": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "163": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "164": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "165": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "166": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "167": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "168": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "169": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "170": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "171": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "172": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "173": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "174": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "175": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "176": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "177": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "178": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "179": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "180": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "181": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "182": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "183": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "184": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "185": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "186": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "187": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "188": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "189": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "190": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "191": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "192": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "193": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "194": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "195": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "196": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "197": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "198": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "199": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "200": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "201": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "202": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "203": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "204": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "205": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "206": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "207": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "208": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "209": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "210": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "211": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "212": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "213": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "214": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "215": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "216": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "217": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "218": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "219": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "220": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "221": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "222": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "223": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "224": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "225": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "226": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "227": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "228": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "229": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "230": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "231": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "232": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "233": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "234": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "235": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "236": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "237": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "238": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "239": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "240": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "241": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "242": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "243": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "244": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "245": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "246": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "247": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "248": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "249": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "250": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "251": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "252": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "253": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "254": {
+        "text": "",
+        "GOTO": "ENDA"
+    },
+    "255": {
+        "text": "",
+        "GOTO": "ENDA"
+    }
+}

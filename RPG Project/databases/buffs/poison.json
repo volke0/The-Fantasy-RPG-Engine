@@ -1,0 +1,12 @@
+{
+    "c_name": "poison",
+    "name": "Poison",
+    "icon": "poison",
+    "description": "Inflicts a minute poison effect~to the target.",
+    "buff_type": "debuff",
+    "effect_type": "damage",
+    "magnitude": {"output_type": "magic", "base": 10, "scaler": "applier",
+                   "scaling": 0.65, "scaling_type": "mag", "IsDoT": true},
+    "duration": 2,
+    "max_stacks": 1
+}

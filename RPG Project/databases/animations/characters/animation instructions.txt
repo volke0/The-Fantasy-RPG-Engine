@@ -1,0 +1,2 @@
+"frames" = frame loop (usually used for character frames that need to be repeated whilst moving)
+"multi_frame" = displaying multiple frames alongside eachother (typically used in vfx animations)

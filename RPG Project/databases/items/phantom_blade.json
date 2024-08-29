@@ -1,0 +1,16 @@
+{
+    "c_name": "phantom_blade",
+    "name": "Phantom Blade",
+    "type": "equipment",
+    "sub_type": "weapon",
+    "description": "The weapon of legends~old.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"attack": 15, "hit": 100, "crit": 5, "weight": 12, "avoid": 15},
+    "bonus_stats": {"strength": 1, "speed": 3},
+    "growth_rates": {},
+    "skills": {},
+    "weapon_type": "sword",
+    "special_lock": ["phantom"],
+    "animations": "iron_sword_anim"
+}

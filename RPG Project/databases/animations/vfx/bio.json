@@ -1,0 +1,37 @@
+{
+    "Settings":
+    [
+        {
+            "name": "vfx_bio",
+            "graphics": "magic",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "bio", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "bio", "frame": 1, "dx": -175, "dy": -120, "fps": 2, "sfx": "bio", "on_target": true, "alpha": 255},
+        {"sheet": "bio", "frame": 2, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 3, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 4, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 5, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 6, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 7, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 8, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 9, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 10, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 11, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 12, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 13, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 14, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 15, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 16, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 17, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 18, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 19, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 20, "dx": -175, "dy": -120, "fps": 2},
+        {"sheet": "bio", "frame": 22, "dx": -175, "dy": -120, "fps": 5},
+        {"sheet": "null", "fps": 30}
+    ]
+}

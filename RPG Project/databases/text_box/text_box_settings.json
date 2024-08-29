@@ -1,0 +1,12 @@
+{
+    "dialogue": 
+    {
+        "x": {"magnitude": 6, "operator": "mult"}, "y": {"magnitude": 3, "operator": "div"}, "origin_x": -33.5, "origin_y": 0, 
+        "font_size": 27
+    },
+    "notification": 
+    {
+        "x": {"magnitude": 4, "operator": "mult"}, "y": {"magnitude": 2, "operator": "div"}, "origin_x": -33.5, "origin_y": 0, 
+        "font_size": 27
+    }
+}

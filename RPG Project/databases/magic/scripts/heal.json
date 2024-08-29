@@ -1,0 +1,14 @@
+{
+    "name": "Heal",
+    "c_name": "heal",
+    "type": "healing",
+    "heal_type": "hp",
+    "elem_type": "none",
+    "power": 10,
+    "hit": "---",
+    "target_type": "single",
+    "descr": "A low tier heal.",
+    "cost": 3,
+    "cost_type": "mp",
+    "animation": "vfx_cure"
+}

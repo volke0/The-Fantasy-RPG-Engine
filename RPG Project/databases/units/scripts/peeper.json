@@ -1,0 +1,28 @@
+{
+    "name": "peeper",
+    "ingame_name": "Peeper",
+    "type": "enemy",
+    "color": "red",
+    "equipment": {"r_hand": "paw_fist"},
+    "stats": {"lvl": 4,
+              "hp": 20, 
+              "mp": 9, 
+              "str": 6, 
+              "mag": 20, 
+              "skl": 3, 
+              "spd": 6, 
+              "lck": 4, 
+              "def": 2, 
+              "res": 3,
+              "con": 2,
+              "exp": 0,
+              "slv": 200},
+    "equipment_rank": {
+        "weapon":["paw"]
+    },
+    "loot": {"silver": 1, "exp": 5},
+    "growth_rates": {},
+    "skills": {},
+    "AI": {"battle": "peeper_ai"},
+    "animations": "peeper_anim"
+}

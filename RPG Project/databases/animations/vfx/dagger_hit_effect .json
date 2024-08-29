@@ -1,0 +1,22 @@
+{
+    "Settings":
+    [
+        {
+            "name": "dagger_hit_effect",
+            "graphics": "effects",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "cut_effect", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "dagger_hit", "frame": 1, "dx": 30, "dy": 5, "fps": 1, "sfx": "sword_hit2", "on_target": true, "alpha": 255},
+        {"sheet": "dagger_hit", "frame": 2, "dx": 30, "dy": -10, "fps": 1, "alpha": 255},
+        {"sheet": "dagger_hit", "frame": 3, "dx": 35, "dy": -20, "fps": 1, "alpha": 255},
+        {"sheet": "dagger_hit", "frame": 4, "dx": 36, "dy": -31, "fps": 1, "alpha": 255},
+        {"sheet": "dagger_hit", "frame": 5, "dx": 30, "dy": -55, "fps": 1, "alpha": 255},
+        {"sheet": "dagger_hit", "frame": 6, "dx": 30, "dy": -55, "fps": 1, "alpha": 255},
+        {"sheet": "null", "fps": 1, "alpha": 255}
+    ]
+}

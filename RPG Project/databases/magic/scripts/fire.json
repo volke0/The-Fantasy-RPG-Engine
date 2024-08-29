@@ -1,0 +1,13 @@
+{
+    "name": "Fire",
+    "c_name": "fire",
+    "type": "dmg",
+    "elem_type": "fire",
+    "power": 15,
+    "hit": 150,
+    "target_type": "single",
+    "descr": "A low tier fire magic attack.",
+    "cost": 0,
+    "cost_type": "mp",
+    "animation": "vfx_fire"
+}

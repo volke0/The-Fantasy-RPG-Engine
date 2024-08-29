@@ -1,0 +1,10 @@
+{
+    "c_name": "angel_revive",
+    "name": "Angel Revive",
+    "icon": "Angel_idol",
+    "description": "Revives target when he falls.",
+    "buff_type": "buff",
+    "effect_type": "revive",
+    "duration": 0,
+    "max_stacks": 1
+}

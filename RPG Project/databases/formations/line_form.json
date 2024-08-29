@@ -1,0 +1,12 @@
+{
+    "Settings":
+    {
+        "mode": "dynamic",
+        "name": "line_formation"
+    },
+    "Formation":
+    {
+        "1": {"x": [{"aNum": 16}, {"tTile": 11}, {"tPos": 32}], 
+              "y": [{"aNum": 64}, {"tTilePos": 1.5}]}
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "Settings":
+    [
+        {
+            "name": "iron_sword_anim",
+            "graphics": "items",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "melee_attack", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "sword", "frame": 1, "dx": 36, "dy": -44, "fps": 2, "on_character": true, "alpha": 255},
+        {"sheet": "sword", "frame": 2, "dx": 5, "dy": -48, "fps": 2, "on_character": true, "alpha": 255},
+        {"sheet": "sword", "frame": 3, "dx": -25, "dy": -20, "fps": 2, "on_character": true, "alpha": 255},
+        {"sheet": "sword", "frame": 1, "dx": -90, "dy": -23, "fps": 1, "on_character": true, "flip": true, "alpha": 255, "call_vfx": "sword_hit_effect", "call_hit": true},
+        {"sheet": "sword", "frame": 1, "dx": -90, "dy": -23, "fps": 4, "on_character": true, "flip": true, "alpha": 255}
+    ]
+}

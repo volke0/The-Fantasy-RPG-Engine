@@ -1,0 +1,15 @@
+{
+    "c_name": "bronze_dagger",
+    "name": "Bronze Dagger",
+    "type": "equipment",
+    "sub_type": "weapon",
+    "description": "A small blunt dagger.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"attack": 5, "hit": 110, "weight": 2},
+    "growth_rates": {},
+    "skills": {},
+    "weapon_type": "dagger",
+    "animations": "iron_sword_anim",
+    "price": 35
+}

@@ -1,0 +1,76 @@
+{
+    "Events":
+    [
+        {
+            "OpeningEvent":
+            [
+                {"BEQ": {"VALUE1": "BEGIN_GAME", "VALUE2": 1, "GOTO": 1}},
+                {"LOAD_PARTY": true, "Location": {"x": 12, "y": 15}},
+                {"AUTPARTY": 0},
+                {"ADDITEM": {"item": "revive_potion_i", "amount": 5}},
+                {"ADDITEM": {"item": "mana_potion_i", "amount": 5}},
+                {"ADDITEM": {"item": "buckler", "amount": 1}},
+                {"ADDITEM": {"item": "heal_potion_i", "amount": 10}},
+                {"CAM2": {"Unit": "party"}},
+                {"STAL": 30},
+				{"CHG_ANIM": {"Unit": "party", "Animation": "emote_tired", "Flip": true}},
+                {"CHG_LAYER": {"Unit": "party", "Layer": 2}},
+                {"FADU": 16},
+                {"TEXTSHOW": 0},
+                {"CHG_BGM": "ff6 Mt. Koltz"},
+                {"ENUT": "BEGIN_GAME"},
+                {"MUSNF": "ff6 Mt. Koltz"},
+				{"UNLOCK_ANIM": {"Unit": "party"}},
+                {"ADD_BLOCKER_SET": "chest_layer2"},
+                {"GOTO": 2},
+                {"LABEL": 1},
+                {"CHG_LAYER": {"Unit": "party", "Layer": 2}},
+                {"STAL": 30},
+                {"FADU": 16},
+                {"MUSC": "ff6 Mt. Koltz"},
+                {"REVEAL": 0},
+                {"LABEL": 2},
+                {"ENDA": true}
+            ],
+        
+            "Portal1":
+            [
+                {"PRINT": "HE WAS #1!"},
+                {"TILEREVERSE": "Chest1"},
+                {"REMOVE_BLOCKER_SET": "chest_layer2"},
+                {"ENDA": true}
+            ],
+
+            "TileTest":
+            [
+                {"CHG_LAYER": {"Unit": "party", "Layer": 2}},
+                {"ENDA": true}
+            ],
+
+            "ShowObjectLayer2":
+            [
+                {"ENUT": "GotChest1"},
+                {"ENDA": true}
+            ],
+
+            "EndingEvent":
+            [
+                {"NULL": null},
+                {"ENDA": true}
+            ]
+        }
+    ],
+
+    "AreaConditions":
+    [
+        {"Type": "Portal", "ID": 1, "Event": "Portal1", "Completion_Flag": 0, "Map": 1, "NextPortal": 1, "Range": {"x1": 3, "y1": 2, "x2": 3, "y2": 2}, "Exit": {"x": 3, "y": 3}, "Direction": "down"},
+        {"Type": "InRange", "Event": "TileTest", "Completion_Flag": 3, "Range": {"x1": 15, "y1": 3, "x2": 15, "y2": 3}}
+    ],
+
+    "MapObjects":
+    [
+        {"Type": "Chest", "TileChange": "Chest1", "location": {"x": 15, "y": 4}, "Contents": {"item": "jade_key", "amount": 1}, "sfx": "door_open", "Event": "ShowObjectLayer2", "Completion_Flag": 0},
+        {"Type": "Door", "TileChange": "door1_change", "location": {"x": 3, "y": 2}, "layer": 2, "Locked": true, "Key": {"type": "item", "key_item": "Jade Key"}, "sfx": "door_open", "Completion_Flag": 0}
+    ]
+
+}

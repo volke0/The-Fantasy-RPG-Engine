@@ -1,0 +1,43 @@
+{
+    "Settings":
+    [
+        {
+            "name": "vfx_cure",
+            "graphics": "magic",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "cure", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "cure", "frame": 1, "dx": -100, "dy": -70, "fps": 1, "sfx": "healing_sound2", "on_target": true, "alpha": 255, "blend_mode": 1},
+        {"sheet": "cure", "frame": 2, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 3, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 4, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 5, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 6, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 7, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 8, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 9, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 10, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 11, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 12, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 13, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 14, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 15, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "null", "fps": 4},
+        {"sheet": "cure", "frame": 16, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 17, "dx": -100, "dy": -70, "fps": 1, "sfx": "healing_sound1"},
+        {"sheet": "cure", "frame": 18, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 19, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 20, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 21, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 22, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 23, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 24, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 25, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "cure", "frame": 26, "dx": -100, "dy": -70, "fps": 1},
+        {"sheet": "null", "fps": 30}
+    ]
+}

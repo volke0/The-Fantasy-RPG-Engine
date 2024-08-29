@@ -1,0 +1,12 @@
+[
+    {"pos": 0, "name": "fire"},
+    {"pos": 1, "name": "water"},
+    {"pos": 2, "name": "wind"},
+    {"pos": 3, "name": "thunder"},
+    {"pos": 4, "name": "ice"},
+    {"pos": 5, "name": "earth"},
+    {"pos": 6, "name": "aura"},
+    {"pos": 7, "name": "restore"},
+    {"pos": 8, "name": "heal"},
+    {"pos": 9, "name": "bio"}
+]

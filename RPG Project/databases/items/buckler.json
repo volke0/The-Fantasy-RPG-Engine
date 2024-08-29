@@ -1,0 +1,15 @@
+{
+    "c_name": "buckler",
+    "name": "Buckler",
+    "type": "equipment",
+    "sub_type": "shield",
+    "shield_type": "light",
+    "description": "A leather shield.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"block": 5, "mag_def": 0, "weight": 3, "avoid": 5},
+    "bonus_stats": {"strength": 0, "speed": 0},
+    "growth_rates": {},
+    "skills": {},
+    "price": 50
+}

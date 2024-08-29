@@ -1,0 +1,29 @@
+{
+    "Settings":
+    [
+        {
+            "name": "vfx_fire",
+            "graphics": "magic",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "fire", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "fire", "frame": 3, "dx": 49, "dy": -39, "fps": 3, "sfx": "fire_1", "on_target": true, "alpha": 240, "blend_mode": 1},
+        {"sheet": "fire", "frame": 1, "dx": 36, "dy": -39, "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 1, "dx": 36, "dy": -39}, {"frame": 3, "dx": 0, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 2, "dx": 50, "dy": -39}, {"frame": 3, "dx": 0, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 2, "dx": 50, "dy": -39}, {"frame": 1, "dx": -10, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": 36, "dy": -39}, {"frame": 1, "dx": -10, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": 36, "dy": -39}, {"frame": 1, "dx": -10, "dy": -39}, {"frame": 3, "dx": -36, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": 36, "dy": -39}, {"frame": 2, "dx": 4, "dy": -39}, {"frame": 3, "dx": -36, "dy": -39}], "fps": 3, "sfx": "fire_1", "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 2, "dx": 4, "dy": -39}, {"frame": 3, "dx": -36, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": 0, "dy": -39}, {"frame": 1, "dx": -46, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": 0, "dy": -39}, {"frame": 2, "dx": -32, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 2, "dx": -32, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "fire", "multi_frame": [{"frame": 3, "dx": -36, "dy": -39}], "fps": 3, "on_target": true, "alpha": 240},
+        {"sheet": "null", "fps": 30, "on_target": true, "alpha": 240}
+    ]
+}

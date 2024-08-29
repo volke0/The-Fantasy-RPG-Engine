@@ -1,0 +1,9 @@
+{
+    "name": "bandit_I",
+    "ingame_name": "Bandit I",
+    "type": "enemy",
+    "color": "red",
+    "stats": {},
+    "growth_rates": {},
+    "skills": {}
+}

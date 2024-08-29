@@ -1,0 +1,32 @@
+{
+    "Settings":
+    [
+        {
+            "name": "heal_use",
+            "graphics": "effects",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "heal_use", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "heal_use", "frame": 1, "dx": -97, "dy": -30, "fps": 1, "sfx": "heal_magic_use", "on_character": true, "alpha": 240, "blend_mode": 0},
+        {"sheet": "heal_use", "frame": 2, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 3, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 4, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 5, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 6, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 7, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 8, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 9, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 10, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 11, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 12, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 13, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 14, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 15, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "heal_use", "frame": 16, "dx": -97, "dy": -30, "fps": 1, "on_character": true, "alpha": 240},
+        {"sheet": "null", "fps": 25, "alpha": 255}
+    ]
+}

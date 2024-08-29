@@ -1,0 +1,18 @@
+{
+    "name": "oracle",
+    "ingame_name": "Oracle",
+    "charts": {"exp_chart": "oracle", "growth_chart": "oracle"},
+    "skills": {},
+    "max_stats": 
+    {
+        "hp": 9480, 
+        "mp": 999, 
+        "str": 230, 
+        "mag": 500, 
+        "skl": 470, 
+        "spd": 415, 
+        "lck": 490, 
+        "def": 380, 
+        "res": 498
+    }
+}

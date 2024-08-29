@@ -1,0 +1,31 @@
+{
+    "name": "phantom",
+    "ingame_name": "?????",
+    "type": "playable",
+    "color": "blue",
+    "graphics": "phantom",
+    "portrait": "portrait",
+    "class": "lost_knight",
+    "equipment": {"r_hand": "phantom_blade"},
+    "magic": ["fire", "heal", "bio"],
+    "stats": {"lvl": 1,
+              "hp": 150, 
+              "mp": 0, 
+              "str": 20, 
+              "mag": 5, 
+              "skl": 12, 
+              "spd": 10, 
+              "lck": 4, 
+              "def": 10, 
+              "res": 4, 
+              "con": 15,
+              "exp": 0},
+    "equipment_rank": {
+        "weapon": ["sword", "great_sword"],
+        "shield": ["light", "medium", "heavy"],
+        "head_gear": ["helmet"],
+        "armor": ["med_armor", "heav_armor"],
+        "foot_gear": ["med_armor", "heav_armor"]
+    },
+    "animations": "phantom_anim"
+}

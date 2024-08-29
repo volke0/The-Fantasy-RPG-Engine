@@ -1,0 +1,19 @@
+{
+    "Settings":
+    [
+        {
+            "name": "active_pointer",
+            "graphics": "effects",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "active_pointer", "mode": "battle", "unit": "user", "repeat": true},
+        {"sheet": "active_pointer", "frame": 1, "dx": 55, "dy": -15, "fps": 5, "alpha": 255, "on_character": true},
+        {"sheet": "active_pointer", "frame": 2, "dx": 55, "dy": -15, "fps": 5, "alpha": 255, "on_character": true},
+        {"sheet": "active_pointer", "frame": 3, "dx": 55, "dy": -15, "fps": 5, "alpha": 255, "on_character": true},
+        {"sheet": "active_pointer", "frame": 2, "dx": 55, "dy": -15, "fps": 5, "alpha": 255, "on_character": true}
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "c_name": "jade_key",
+    "name": "Jade Key",
+    "type": "key_item",
+    "description": "A key with immence power.",
+    "stackable" : false,
+    "growth_rates": {},
+    "skills": {}
+}

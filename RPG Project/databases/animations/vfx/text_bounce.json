@@ -1,0 +1,20 @@
+{
+    "Settings":
+    [
+        {
+            "name": "text_bounce",
+            "font_size": 28,
+            "text": true
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "text_bounce", "mode": "battle", "unit": "user", "repeat": false, "move_each_char": true, "reverse_char": true, "wait": 2},
+        {"dx": 45, "dy": 100, "fps": 1, "on_target": true, "alpha": 0},
+        {"dx": 50, "dy": 120, "speed_x": 2, "speed_y": 5, "fps": 2, "on_target": true, "alpha": 0, "alpha_spd": 25, "alpha_goal": 255},
+        {"dx": 50, "dy": 120, "fps": 2, "on_target": true, "alpha": 255},
+        {"dx": 50, "dy": 120, "fps": 2, "on_target": true, "alpha": 255},
+        {"dx": 50, "dy": 120, "fps": 10, "on_target": true, "alpha": 255}
+    ]
+}

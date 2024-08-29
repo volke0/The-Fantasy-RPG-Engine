@@ -1,0 +1,15 @@
+{
+    "Settings":
+    {
+        "mode": "static",
+        "name": "bombo_bandit_duo_formation"
+    },
+    "Formation":
+    {
+        "1": {"x": [{"tTile": 4}], 
+              "y": [{"tTile": 1}]},
+
+        "2": {"x": [{"tTile": 2}], 
+              "y": [{"tTile": 4}]}
+    }
+}

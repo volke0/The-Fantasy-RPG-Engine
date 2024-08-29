@@ -1,0 +1,71 @@
+{
+    "sword":
+    {
+        "width": 55, 
+        "height": 55, 
+        "scale": 3,
+        "max_colors": 32
+    },
+    "sword_hit":
+    {
+        "width": 45, 
+        "height": 68, 
+        "scale": 3,
+        "max_colors": 32
+    },
+    "active_pointer":
+    {
+        "width": 13,
+        "height": 10,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "fire":
+    {
+        "width": 48,
+        "height": 48,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "cure":
+    {
+        "width": 119,
+        "height": 88,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "magic_use":
+    {
+        "width": 46,
+        "height": 46,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "heal_use":
+    {
+        "width": 119,
+        "height": 88,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "potion":
+    {
+        "width": 44,
+        "height": 56,
+        "scale": 3,
+        "max_colors": 32
+    },
+    "dagger_hit":
+    {
+        "width": 52,
+        "height": 67,
+        "max_colors": 32
+    },
+    "bio":
+    {
+        "width": 143,
+        "height": 95,
+        "scale": 3,
+        "max_colors": 32
+    }
+}

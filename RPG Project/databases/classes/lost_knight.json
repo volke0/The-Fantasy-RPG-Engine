@@ -1,0 +1,18 @@
+{
+    "name": "lost_knight",
+    "ingame_name": "Lost Knight",
+    "charts": {"exp_chart": "lost_knight", "growth_chart": "lost_knight"},
+    "skills": {},
+    "max_stats": 
+    {
+        "hp": 9999, 
+        "mp": 900, 
+        "str": 520, 
+        "mag": 440, 
+        "skl": 441, 
+        "spd": 399, 
+        "lck": 440, 
+        "def": 477, 
+        "res": 468
+    }
+}

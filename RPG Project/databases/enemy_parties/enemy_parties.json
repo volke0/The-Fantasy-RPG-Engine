@@ -1,0 +1,12 @@
+{
+    "peeper_partytime": {"slots": [{"id": 3}, {"id": 3}, {"id": 3}, {"id": 3}, {"id": 3}], "formation": "peeper_star_formation"},
+
+    "1": {"slots": [{"id": 2}, {"id": 2}], "formation": "enemy_duo_formation", 
+        "inventory": 
+                [{"item": "heal_potion_ii", "amount": 1}, {"item": "mana_potion_i", "amount": 5}]},
+    
+
+    "bombo_bandits_i": {"slots": [{"id": 4}, {"id": 4}], "formation": "bombo_bandit_duo_formation", 
+        "inventory": 
+                [{"item": "heal_potion_ii", "amount": 10}]}
+}

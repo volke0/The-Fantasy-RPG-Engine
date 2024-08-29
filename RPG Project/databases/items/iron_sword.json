@@ -1,0 +1,15 @@
+{
+    "c_name": "iron_sword",
+    "name": "Iron Sword",
+    "type": "equipment",
+    "sub_type": "weapon",
+    "description": "A basic iron sword.~~Nothing special about it~really.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"attack": 5, "hit": 90, "weight": 5},
+    "growth_rates": {},
+    "skills": {},
+    "weapon_type": "sword",
+    "animations": "iron_sword_anim",
+    "price": 45000
+}

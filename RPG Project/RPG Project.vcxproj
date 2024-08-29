@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6dc00f19-550f-4e80-83c2-530edfe0a438}</ProjectGuid>
+    <RootNamespace>RPGProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\Anthony\AppData\Local\Programs\Python\Python38\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Anthony\AppData\Local\Programs\Python\Python38\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>python38.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Anthony\AppData\Local\Programs\Python\Python38\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Users\Anthony\AppData\Local\Programs\Python\Python38\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>python38.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ability_status_menu.cpp" />
+    <ClCompile Include="ai_base.cpp" />
+    <ClCompile Include="ai_database.cpp" />
+    <ClCompile Include="always_trigger_condition.cpp" />
+    <ClCompile Include="always_trigger_controller.cpp" />
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="apply_ability_menu.cpp" />
+    <ClCompile Include="apply_item_menu.cpp" />
+    <ClCompile Include="apply_magic_menu.cpp" />
+    <ClCompile Include="armor.cpp" />
+    <ClCompile Include="attack_display_handler.cpp" />
+    <ClCompile Include="basic_menu_cursor_handler.cpp" />
+    <ClCompile Include="battle_ai.cpp" />
+    <ClCompile Include="buff_base.cpp" />
+    <ClCompile Include="buff_battle_manager.cpp" />
+    <ClCompile Include="buff_database.cpp" />
+    <ClCompile Include="buff_manager.cpp" />
+    <ClCompile Include="char_anim_controller_manager.cpp" />
+    <ClCompile Include="char_btl_anim_controller.cpp" />
+    <ClCompile Include="char_map_anim_controller.cpp" />
+    <ClCompile Include="chest_obj_condition.cpp" />
+    <ClCompile Include="condition_controller.cpp" />
+    <ClCompile Include="config_status_menu.cpp" />
+    <ClCompile Include="game_over_scene.cpp" />
+    <ClCompile Include="sell_shop_menu.cpp" />
+    <ClCompile Include="shop_amount_menu.cpp" />
+    <ClCompile Include="shop_confirm_menu.cpp" />
+    <ClCompile Include="confirm_status_menu.cpp" />
+    <ClCompile Include="consumable.cpp" />
+    <ClCompile Include="door_obj_condition.cpp" />
+    <ClCompile Include="effect_base.cpp" />
+    <ClCompile Include="enemy_party.cpp" />
+    <ClCompile Include="enemy_party_database.cpp" />
+    <ClCompile Include="equipment_base.cpp" />
+    <ClCompile Include="equip_confirm_status_menu.cpp" />
+    <ClCompile Include="equip_select_menu.cpp" />
+    <ClCompile Include="equip_status_menu.cpp" />
+    <ClCompile Include="equip_system.cpp" />
+    <ClCompile Include="foot_gear.cpp" />
+    <ClCompile Include="formation_base.cpp" />
+    <ClCompile Include="formation_database.cpp" />
+    <ClCompile Include="formation_status_menu.cpp" />
+    <ClCompile Include="head_gear.cpp" />
+    <ClCompile Include="inventory_base.cpp" />
+    <ClCompile Include="item_calculation_handler.cpp" />
+    <ClCompile Include="item_confirm_status_menu.cpp" />
+    <ClCompile Include="item_display_handler.cpp" />
+    <ClCompile Include="item_effect.cpp" />
+    <ClCompile Include="item_inventory.cpp" />
+    <ClCompile Include="item_menu.cpp" />
+    <ClCompile Include="item_status_menu.cpp" />
+    <ClCompile Include="magic_effect.cpp" />
+    <ClCompile Include="magic_status_menu.cpp" />
+    <ClCompile Include="map_obj_condition.cpp" />
+    <ClCompile Include="map_obj_controller.cpp" />
+    <ClCompile Include="menu_magic_cursor_handler.cpp" />
+    <ClCompile Include="notification_box.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="party_base.cpp" />
+    <ClCompile Include="party_formation.cpp" />
+    <ClCompile Include="player_select_menu.cpp" />
+    <ClCompile Include="shield.cpp" />
+    <ClCompile Include="shop_buy_menu.cpp" />
+    <ClCompile Include="shop_database.cpp" />
+    <ClCompile Include="shop_menu.cpp" />
+    <ClCompile Include="status_info_menu.cpp" />
+    <ClCompile Include="sub_menu.cpp" />
+    <ClCompile Include="sub_shop_menu.cpp" />
+    <ClCompile Include="sub_status_menu.cpp" />
+    <ClCompile Include="menu_cursor.cpp" />
+    <ClCompile Include="menu_cursor_handler.cpp" />
+    <ClCompile Include="menu_cursor_manager.cpp" />
+    <ClCompile Include="music_database.cpp" />
+    <ClCompile Include="music_player.cpp" />
+    <ClCompile Include="player_status_menu.cpp" />
+    <ClCompile Include="status_menu.cpp" />
+    <ClCompile Include="talk_condition.cpp" />
+    <ClCompile Include="talk_controller.cpp" />
+    <ClCompile Include="text_anim.cpp" />
+    <ClCompile Include="text_box_controller.cpp" />
+    <ClCompile Include="text_box_settings_database.cpp" />
+    <ClCompile Include="unit_battle_logic_controller.cpp" />
+    <ClCompile Include="btl_animation_manager.cpp" />
+    <ClCompile Include="anim_controller.cpp" />
+    <ClCompile Include="anim_mask.cpp" />
+    <ClCompile Include="audio_player.cpp" />
+    <ClCompile Include="basic_battle_cursor_handler.cpp" />
+    <ClCompile Include="basic_cursor_handler.cpp" />
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="battle_condition_controller.cpp" />
+    <ClCompile Include="battle_controller.cpp" />
+    <ClCompile Include="battle_controller_handler.cpp" />
+    <ClCompile Include="battle_manager.cpp" />
+    <ClCompile Include="battle_menu.cpp" />
+    <ClCompile Include="battle_menu_controller.cpp" />
+    <ClCompile Include="battle_menu_state_controller.cpp" />
+    <ClCompile Include="battle_state_controller.cpp" />
+    <ClCompile Include="battle_ui.cpp" />
+    <ClCompile Include="calculation_handler.cpp" />
+    <ClCompile Include="chart_database.cpp" />
+    <ClCompile Include="char_anim.cpp" />
+    <ClCompile Include="char_anim_controller.cpp" />
+    <ClCompile Include="area_condition.cpp" />
+    <ClCompile Include="area_controller.cpp" />
+    <ClCompile Include="battle_scene.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="class_database.cpp" />
+    <ClCompile Include="collision_handler.cpp" />
+    <ClCompile Include="color_database.cpp" />
+    <ClCompile Include="condition.cpp" />
+    <ClCompile Include="battle_cursor.cpp" />
+    <ClCompile Include="cursor.cpp" />
+    <ClCompile Include="cursor_handler.cpp" />
+    <ClCompile Include="battle_cursor_manager.cpp" />
+    <ClCompile Include="cursor_mag_select_handler.cpp" />
+    <ClCompile Include="cursor_manager.cpp" />
+    <ClCompile Include="c_unit_select_handler.cpp" />
+    <ClCompile Include="display_handler.cpp" />
+    <ClCompile Include="exp_menu.cpp" />
+    <ClCompile Include="exp_menu_handler.cpp" />
+    <ClCompile Include="growth_calculator.cpp" />
+    <ClCompile Include="list_handler.cpp" />
+    <ClCompile Include="lvl_up_screen.cpp" />
+    <ClCompile Include="lvl_up_screen_handler.cpp" />
+    <ClCompile Include="magic.cpp" />
+    <ClCompile Include="magic_calculation_handler.cpp" />
+    <ClCompile Include="magic_database.cpp" />
+    <ClCompile Include="magic_display_handler.cpp" />
+    <ClCompile Include="magic_list_handler.cpp" />
+    <ClCompile Include="magic_menu.cpp" />
+    <ClCompile Include="mask_database.cpp" />
+    <ClCompile Include="menu.cpp" />
+    <ClCompile Include="palette_database.cpp" />
+    <ClCompile Include="player_menu.cpp" />
+    <ClCompile Include="sound_player.cpp" />
+    <ClCompile Include="stat_handler.cpp" />
+    <ClCompile Include="text.cpp" />
+    <ClCompile Include="text_char_anim.cpp" />
+    <ClCompile Include="unit_block_database.cpp" />
+    <ClCompile Include="unit_block_handler.cpp" />
+    <ClCompile Include="unit_class.cpp" />
+    <ClCompile Include="unit_condition_controller.cpp" />
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="database.cpp" />
+    <ClCompile Include="dialogue_box.cpp" />
+    <ClCompile Include="entity.cpp" />
+    <ClCompile Include="event.cpp" />
+    <ClCompile Include="event_controller.cpp" />
+    <ClCompile Include="event_manager.cpp" />
+    <ClCompile Include="fade.cpp" />
+    <ClCompile Include="flags.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gfx_database.cpp" />
+    <ClCompile Include="handler.cpp" />
+    <ClCompile Include="input_handler.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="item_database.cpp" />
+    <ClCompile Include="level.cpp" />
+    <ClCompile Include="level_database.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_menu.cpp" />
+    <ClCompile Include="map.cpp" />
+    <ClCompile Include="scene_menu.cpp" />
+    <ClCompile Include="movement_controller.cpp" />
+    <ClCompile Include="party.cpp" />
+    <ClCompile Include="path_finding.cpp" />
+    <ClCompile Include="save_select.cpp" />
+    <ClCompile Include="scene.cpp" />
+    <ClCompile Include="scene_manager.cpp" />
+    <ClCompile Include="sfx_database.cpp" />
+    <ClCompile Include="sprites.cpp" />
+    <ClCompile Include="state_controller.cpp" />
+    <ClCompile Include="text_box.cpp" />
+    <ClCompile Include="text_database.cpp" />
+    <ClCompile Include="timer.cpp" />
+    <ClCompile Include="title.cpp" />
+    <ClCompile Include="unit.cpp" />
+    <ClCompile Include="unit_database.cpp" />
+    <ClCompile Include="unit_select.cpp" />
+    <ClCompile Include="unit_state_controller.cpp" />
+    <ClCompile Include="vars.cpp" />
+    <ClCompile Include="vfx_animation.cpp" />
+    <ClCompile Include="vfx_anim_database.cpp" />
+    <ClCompile Include="vfx_controller.cpp" />
+    <ClCompile Include="weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ability_status_menu.h" />
+    <ClInclude Include="ai_base.h" />
+    <ClInclude Include="ai_database.h" />
+    <ClInclude Include="always_trigger_condition.h" />
+    <ClInclude Include="always_trigger_controller.h" />
+    <ClInclude Include="animation.h" />
+    <ClInclude Include="apply_ability_menu.h" />
+    <ClInclude Include="apply_item_menu.h" />
+    <ClInclude Include="apply_magic_menu.h" />
+    <ClInclude Include="armor.h" />
+    <ClInclude Include="attack_display_handler.h" />
+    <ClInclude Include="basic_menu_cursor_handler.h" />
+    <ClInclude Include="battle_ai.h" />
+    <ClInclude Include="buff_base.h" />
+    <ClInclude Include="buff_battle_manager.h" />
+    <ClInclude Include="buff_database.h" />
+    <ClInclude Include="buff_manager.h" />
+    <ClInclude Include="C:\Users\Anthony\AppData\Local\Programs\Python\Python38\include\Python.h" />
+    <ClInclude Include="char_anim_controller_manager.h" />
+    <ClInclude Include="char_btl_anim_controller.h" />
+    <ClInclude Include="char_map_anim_controller.h" />
+    <ClInclude Include="chest_obj_condition.h" />
+    <ClInclude Include="condition_controller.h" />
+    <ClInclude Include="config_status_menu.h" />
+    <ClInclude Include="game_over_scene.h" />
+    <ClInclude Include="sell_shop_menu.h" />
+    <ClInclude Include="shop_amount_menu.h" />
+    <ClInclude Include="shop_confirm_menu.h" />
+    <ClInclude Include="confirm_status_menu.h" />
+    <ClInclude Include="consumable.h" />
+    <ClInclude Include="door_obj_condition.h" />
+    <ClInclude Include="effect_base.h" />
+    <ClInclude Include="enemy_party.h" />
+    <ClInclude Include="enemy_party_database.h" />
+    <ClInclude Include="equipment_base.h" />
+    <ClInclude Include="equip_confirm_status_menu.h" />
+    <ClInclude Include="equip_select_menu.h" />
+    <ClInclude Include="equip_status_menu.h" />
+    <ClInclude Include="equip_system.h" />
+    <ClInclude Include="foot_gear.h" />
+    <ClInclude Include="formation_base.h" />
+    <ClInclude Include="formation_database.h" />
+    <ClInclude Include="formation_status_menu.h" />
+    <ClInclude Include="head_gear.h" />
+    <ClInclude Include="item_calculation_handler.h" />
+    <ClInclude Include="item_confirm_status_menu.h" />
+    <ClInclude Include="item_display_handler.h" />
+    <ClInclude Include="item_effect.h" />
+    <ClInclude Include="item_inventory.h" />
+    <ClInclude Include="item_menu.h" />
+    <ClInclude Include="inventory_base.h" />
+    <ClInclude Include="item_status_menu.h" />
+    <ClInclude Include="lib\cpp_assert.hpp" />
+    <ClInclude Include="magic_effect.h" />
+    <ClInclude Include="magic_status_menu.h" />
+    <ClInclude Include="map_obj_condition.h" />
+    <ClInclude Include="map_obj_controller.h" />
+    <ClInclude Include="menu_magic_cursor_handler.h" />
+    <ClInclude Include="notification_box.h" />
+    <ClInclude Include="npc.h" />
+    <ClInclude Include="party_base.h" />
+    <ClInclude Include="party_formation.h" />
+    <ClInclude Include="player_select_menu.h" />
+    <ClInclude Include="shield.h" />
+    <ClInclude Include="shop_buy_menu.h" />
+    <ClInclude Include="shop_database.h" />
+    <ClInclude Include="shop_menu.h" />
+    <ClInclude Include="status_info_menu.h" />
+    <ClInclude Include="sub_menu.h" />
+    <ClInclude Include="sub_shop_menu.h" />
+    <ClInclude Include="sub_status_menu.h" />
+    <ClInclude Include="menu_cursor.h" />
+    <ClInclude Include="menu_cursor_handler.h" />
+    <ClInclude Include="menu_cursor_manager.h" />
+    <ClInclude Include="music_database.h" />
+    <ClInclude Include="music_player.h" />
+    <ClInclude Include="player_status_menu.h" />
+    <ClInclude Include="status_menu.h" />
+    <ClInclude Include="talk_condition.h" />
+    <ClInclude Include="talk_controller.h" />
+    <ClInclude Include="text_anim.h" />
+    <ClInclude Include="text_box_controller.h" />
+    <ClInclude Include="text_box_settings_database.h" />
+    <ClInclude Include="unit_battle_logic_controller.h" />
+    <ClInclude Include="btl_animation_manager.h" />
+    <ClInclude Include="anim_controller.h" />
+    <ClInclude Include="anim_mask.h" />
+    <ClInclude Include="audio_player.h" />
+    <ClInclude Include="basic_battle_cursor_handler.h" />
+    <ClInclude Include="basic_cursor_handler.h" />
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="battle_condition_controller.h" />
+    <ClInclude Include="battle_controller.h" />
+    <ClInclude Include="battle_controller_handler.h" />
+    <ClInclude Include="battle_manager.h" />
+    <ClInclude Include="battle_menu.h" />
+    <ClInclude Include="battle_menu_controller.h" />
+    <ClInclude Include="battle_menu_state_controller.h" />
+    <ClInclude Include="battle_state_controller.h" />
+    <ClInclude Include="calculation_handler.h" />
+    <ClInclude Include="chart_database.h" />
+    <ClInclude Include="class_database.h" />
+    <ClInclude Include="battle_cursor.h" />
+    <ClInclude Include="cursor.h" />
+    <ClInclude Include="cursor_handler.h" />
+    <ClInclude Include="battle_cursor_manager.h" />
+    <ClInclude Include="cursor_manager.h" />
+    <ClInclude Include="c_unit_select_handler.h" />
+    <ClInclude Include="display_handler.h" />
+    <ClInclude Include="exp_menu.h" />
+    <ClInclude Include="exp_menu_handler.h" />
+    <ClInclude Include="growth_calculator.h" />
+    <ClInclude Include="list_handler.h" />
+    <ClInclude Include="lvl_up_screen.h" />
+    <ClInclude Include="lvl_up_screen_handler.h" />
+    <ClInclude Include="magic.h" />
+    <ClInclude Include="magic_calculation_handler.h" />
+    <ClInclude Include="magic_database.h" />
+    <ClInclude Include="magic_display_handler.h" />
+    <ClInclude Include="magic_list_handler.h" />
+    <ClInclude Include="magic_menu.h" />
+    <ClInclude Include="cursor_mag_select_handler.h" />
+    <ClInclude Include="player_menu.h" />
+    <ClInclude Include="battle_ui.h" />
+    <ClInclude Include="char_anim.h" />
+    <ClInclude Include="char_anim_controller.h" />
+    <ClInclude Include="area_condition.h" />
+    <ClInclude Include="area_controller.h" />
+    <ClInclude Include="battle_scene.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="collision_handler.h" />
+    <ClInclude Include="color_database.h" />
+    <ClInclude Include="condition.h" />
+    <ClInclude Include="mask_database.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="palette_database.h" />
+    <ClInclude Include="sound_player.h" />
+    <ClInclude Include="stat_handler.h" />
+    <ClInclude Include="text.h" />
+    <ClInclude Include="text_char_anim.h" />
+    <ClInclude Include="unit_block_database.h" />
+    <ClInclude Include="unit_block_handler.h" />
+    <ClInclude Include="unit_class.h" />
+    <ClInclude Include="unit_condition_controller.h" />
+    <ClInclude Include="controller.h" />
+    <ClInclude Include="database.h" />
+    <ClInclude Include="dialogue_box.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="event.h" />
+    <ClInclude Include="event_controller.h" />
+    <ClInclude Include="event_manager.h" />
+    <ClInclude Include="fade.h" />
+    <ClInclude Include="flags.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gfx_database.h" />
+    <ClInclude Include="handler.h" />
+    <ClInclude Include="input_handler.h" />
+    <ClInclude Include="item.h" />
+    <ClInclude Include="item_database.h" />
+    <ClInclude Include="level.h" />
+    <ClInclude Include="level_database.h" />
+    <ClInclude Include="lib\tileson.hpp" />
+    <ClInclude Include="main_menu.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="scene_menu.h" />
+    <ClInclude Include="movement_controller.h" />
+    <ClInclude Include="party.h" />
+    <ClInclude Include="path_finding.h" />
+    <ClInclude Include="save_select.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="scene_manager.h" />
+    <ClInclude Include="sfx_database.h" />
+    <ClInclude Include="sprites.h" />
+    <ClInclude Include="state_controller.h" />
+    <ClInclude Include="text_box.h" />
+    <ClInclude Include="text_database.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="title.h" />
+    <ClInclude Include="unit.h" />
+    <ClInclude Include="unit_database.h" />
+    <ClInclude Include="unit_select.h" />
+    <ClInclude Include="unit_state_controller.h" />
+    <ClInclude Include="vars.h" />
+    <ClInclude Include="vfx_animation.h" />
+    <ClInclude Include="vfx_anim_database.h" />
+    <ClInclude Include="vfx_controller.h" />
+    <ClInclude Include="weapon.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,8 @@
+{
+    "name_id": "test_multi_shop1",
+    "items_selling": ["iron_sword", "buckler", "heal_potion", "mana_potion"],
+    "shop_name": "Item Shop",
+    "greeting": "Welcome!",
+    "buy_msg": "What do you need?",
+    "sell_msg": "Well, what do you have?"
+}

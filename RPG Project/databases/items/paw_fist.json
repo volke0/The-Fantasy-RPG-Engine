@@ -1,0 +1,14 @@
+{
+    "c_name": "paw_fist",
+    "name": "Paw",
+    "type": "equipment",
+    "sub_type": "weapon",
+    "description": "A monster's paw used as a weapon.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"attack": 1, "hit": 100, "weight": 1},
+    "growth_rates": {},
+    "skills": {},
+    "weapon_type": "paw",
+    "animations": "iron_sword_anim"
+}

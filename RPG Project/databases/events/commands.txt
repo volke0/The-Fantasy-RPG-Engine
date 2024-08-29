@@ -1,0 +1,22 @@
+Events:
+If Statement ==: {"BEQ": {"VALUE1": 1, "VALUE2": 1, "GOTO": 1}}, // If Value1 and Value2 are equal GOTO Label 1
+
+Label: {"LABEL: 1} // Just places a Label you can jump to later on if you so desire
+
+Call: {"CALL": *Event here*} // Calls any event that you specified in the "Events" section. The Event Controller will resume the previous event after the event you called is finished.
+
+Display Dialogue: {"TEXTSHOW": *Text ID Here*} // Calls any text that you specified in the Text Database (Make sure you wrote it in there first lol)
+
+Auto Camera: {"CAM1": {*/"Unit": unit's name, */"x": ..., */"y": ..., "speed": speed}} // To make camera follow a unit keep "Unit" and exclude x and y.  Likewise to make the camera go to a certain location exclude "Unit" and include x and y.
+
+Area Conditions:
+Portal: {"Type": "Portal", "ID": *Set ID#*, "Event": *Event*, "Map": *ID#*, "NextPortal": *ID#*, "Range": {"x1": ..., "y1": ..., "x2": ..., "y2": ...}, "Exit": {"x": ..., "y": ...}} //This warps the player between levels; Event is optional
+
+In Range: {"Type": "InRange", "Event": *Event Here* , "Flag": *Flag ID here* , "Range": {"x1": ..., "y1": ..., "x2": ..., "y2": ...}} 
+
+
+Command Keys:
+- if Flag = 0 it will reset the event once the event ends and can be repeated any number of times.
+- if commmand has * before it, e.g. CAM1 : {*"Unit": ...} it is an optional parameter
+- if command has a */ before it, e.g. CAM1 : {*/"Unit": ..., */"x": ..., */"y": ...} it is an either or paramater
+

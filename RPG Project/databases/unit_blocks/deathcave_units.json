@@ -1,0 +1,10 @@
+{
+    "scene_units1":
+    {
+        "Units": 
+        [   {"ID": 1, "Location": {"x": 34, "y": 8}, "equipment": {"r_hand": "bronze_dagger"}},
+            {"ID": 5, "Location": {"x": 36, "y": 8}},
+            {"ID": 5, "Location": {"x": 36, "y": 7}}
+        ]
+    }
+}

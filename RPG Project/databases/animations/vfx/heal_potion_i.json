@@ -1,0 +1,32 @@
+{
+    "Settings":
+    [
+        {
+            "name": "vfx_heal_potion_i",
+            "graphics": "items",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "vfx_potion", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "potion", "frame": 1, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "sfx": "healing_sound0", "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 2, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 3, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 4, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 5, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 6, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 7, "dx": -10, "dy": -88, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "null", "fps": 13, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 8, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "sfx": "healing_sound2", "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 9, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 10, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 11, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 12, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 13, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 14, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "alpha": 255, "blend_mode": 0},
+        {"sheet": "potion", "frame": 15, "dx": 10, "dy": -70, "fps": 3, "on_target": true, "sfx": "healing_sound1", "alpha": 255, "blend_mode": 0},
+        {"sheet": "null", "fps": 25}
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "meta_data": 
+    {
+        "type": "selector", 
+        "targets": "enemies"
+    },
+
+    "selectors":
+    [
+        {"modes": {"attack": 0.15, "magic": 0.80}},
+        {"target_mode": "heal"},
+        {"magic": {"heal": 1.0}}
+    ]
+}

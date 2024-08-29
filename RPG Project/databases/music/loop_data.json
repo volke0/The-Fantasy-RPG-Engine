@@ -1,0 +1,47 @@
+{
+ "battle_1": {
+  "volume": 0.45,
+  "loop_start": 6.053,
+  "loop_end": 53.32
+ },
+ "ff6 Mt. Koltz": {
+  "volume": 1.1,
+  "loop_start": 0.397,
+  "loop_end": 66.4
+ },
+ "ff6 The Decisive Battle": {
+  "volume": 1.4,
+  "loop_start": 2.276,
+  "loop_end": 55.130
+ },
+ "ff6 The Prelude": {
+  "volume": 1.4,
+  "loop_start": 63.972,
+  "loop_end": 115.139
+ },
+ "ff6 The Unforgiven": {
+  "volume": 1.4,
+  "loop_start": 6.182,
+  "loop_end": 39.617
+ },
+ "ff6_battle_theme": {
+  "volume": 1.0,
+  "loop_start": 3.435,
+  "loop_end": 56.144
+ },
+ "ff6_opening(part_1)": {
+  "volume": 1.5,
+  "loop_start": 0.0,
+  "loop_end": 0.0
+ },
+ "ff6_victory": {
+  "volume": 0.7,
+  "loop_start": 3.794,
+  "loop_end": 18.02
+ },
+ "rs2_the_dragons_hole": {
+  "volume": 1.0,
+  "loop_start": 5.331,
+  "loop_end": 48.297
+ }
+}

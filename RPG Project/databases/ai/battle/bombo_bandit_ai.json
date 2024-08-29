@@ -1,0 +1,25 @@
+{
+    "meta_data": 
+    {
+        "type": "selector", 
+        "targets": "single"
+    },
+
+    "selectors":
+    [
+        {"modes": {"attack": 0.75, "magic": 0.05, "item": 0.35}},
+        {"target_mode": "random"},
+        {"magic": {"bio": 0.95}},
+        {"item": {"heal_potion_ii": 1.0}}
+    ],
+
+    "triggers":
+   [
+        {"hp<": 0.30, 
+            "actions": [{"mode": "attack", "target": "random"}, 
+                        {"mode": "attack", "target": "random"},
+                        {"mode": "attack", "target": "random"}
+                       ], 
+            "repeat": false}
+   ]
+}

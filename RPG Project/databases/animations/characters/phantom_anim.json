@@ -1,0 +1,181 @@
+{
+    "Settings":
+    {
+		"Battle":
+        {
+            "name": "phantom_anim",
+            "graphics": "phantom",
+            "sprite_settings": "phantom_spr",
+            "battle_stand": "bstand",
+            "melee_attack": "melee_attack",
+            "magic_charge": "magic_charge",
+            "low_hp_stand": "low_stand",
+            "battle_wait": "bwait",
+            "item_wait": "bwait",
+            "dead": "ko",
+            "melee_hurt": "hurt",
+            "magic_attack": "magic_attack",
+            "item_use": "item_use",
+            "entrance": "entrance"
+        },
+		"Map":
+		{
+			"graphics": "phantom",
+			"sprite_settings": "phantom_spr",
+			"front_stand": "map_front",
+			"back_stand": "map_back",
+			"right_stand": "map_right",
+			"left_stand": "map_left",
+			"front_walk": "map_front_walk",
+			"back_walk": "map_back_walk",
+			"right_walk": "map_right_walk",
+			"left_walk": "map_left_walk",
+			"emote": ["tired"]
+		}
+    },
+
+    "Animations":
+    {
+		"Battle":
+        {
+            "entrance":
+            [
+                {"name": "entrance", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 15, "dx": 400, "dy": -350, "speed_x": 0, "speed_y": 0, "fps": 30, "fixed_location": true, "alpha": 255},
+                {"sheet": 1, "frame": 15, "dx": 0, "dy": 0, "speed_x": -30, "speed_y": 25, "fps": 3, "fixed_location": false, "alpha": 255},
+                {"sheet": 1, "frame": 20, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 4, "fixed_location": false, "alpha": 255},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 15, "fixed_location": false, "alpha": 255}
+            ],
+            "bstand":
+            [
+                {"name": "bstand", "mode": "battle", "repeat": true},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 7, "alpha": 255}
+            ],
+            "low_stand":
+            [
+                {"name": "low_stand", "mode": "battle", "repeat": true},
+                {"sheet": 1, "frame": 20, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 3, "alpha": 255}
+            ],
+            "magic_charge":
+            [
+                {"name": "magic_charge", "mode": "battle", "repeat": true},
+                {"sheet": 1, "frame": 12, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frame": 13, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ],
+            "magic_attack":
+            [
+                {"name": "magic_attack", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 12, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frames": [16, 17, 18, 17], "dx": -100, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frame": 5, "dx": -100, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frame": 14, "dx": -100, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 2, "alpha": 255},
+                {"sheet": 1, "frame": 14, "dx": -100, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 15, "alpha": 255, "call_vfx": "magic_use"},
+                {"sheet": 1, "frame": 14, "dx": -100, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 2, "alpha": 255, "call_magic": true},
+                {"sheet": 1, "frame": 14, "dx": -100, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frames": [16, 17, 18, 17], "dx": 0, "dy": 0, "speed_x": 6, "speed_y": 0, "fps": 4, "flip": true, "alpha": 255},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "flip": false, "fps": 25, "alpha": 255}
+
+            ],
+            "item_use":
+            [
+                {"name": "item_use", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 10, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255},
+                {"sheet": 1, "frame": 14, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 2, "alpha": 255},
+                {"sheet": 1, "frame": 14, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 2, "alpha": 255, "call_magic": true},
+                {"sheet": 1, "frame": 14, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 10, "alpha": 255},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 10, "alpha": 255}
+
+            ],
+            "bwait":
+            [
+                {"name": "bwait", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 10, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 15, "alpha": 255}
+            ],
+            "ko":
+            [
+                {"name": "ko", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 21, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ],
+            "hurt":
+            [
+                {"name": "hurt", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 19, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": 1, "dy": 0, "speed_x": 5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": -1, "dy": 0, "speed_x": -5, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 19, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255}
+            ],
+            "melee_attack":
+            [
+                {"name": "melee_attack", "mode": "battle", "repeat": false},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255},
+                {"sheet": 1, "frame": 6, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255, "call_weapon": true},
+                {"sheet": 1, "frame": 10, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 1, "alpha": 255, "wait_weapon": true},
+                {"sheet": 1, "frame": 10, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 6, "alpha": 255, "call_weapon": false, "reset_weapon": true},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ]
+        },
+		"Map":
+		{
+			"map_front":
+            [
+                {"name": "map_front", "mode": "map", "repeat": false},
+                {"sheet": 1, "frame": 2, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ],
+			"map_back":
+            [
+                {"name": "map_back", "mode": "map", "repeat": false},
+                {"sheet": 1, "frame": 8, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ],
+			"map_right":
+            [
+                {"name": "map_right", "mode": "map", "repeat": false},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "flip": true, "alpha": 255}
+            ],
+			"map_left":
+            [
+                {"name": "map_left", "mode": "map", "repeat": false},
+                {"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ],
+			"map_front_walk":
+            [
+                {"name": "map_front_walk", "mode": "map", "repeat": true},
+                {"sheet": 1, "frame": 1, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 2, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 3, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 2, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255}
+            ],
+			"map_back_walk":
+            [
+                {"name": "map_back_walk", "mode": "map", "repeat": true},
+                {"sheet": 1, "frame": 7, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 8, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 9, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 8, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255}
+            ],
+			"map_right_walk":
+            [
+                {"name": "map_right_walk", "mode": "map", "repeat": true},
+                {"sheet": 1, "frame": 4, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "flip": true, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "flip": true, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 6, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "flip": true, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "flip": true, "dynamic_fps": {"type": "move_speed"}, "alpha": 255}
+            ],
+			"map_left_walk":
+            [
+                {"name": "map_left_walk", "mode": "map", "repeat": true},
+                {"sheet": 1, "frame": 4, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 6, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255},
+				{"sheet": 1, "frame": 5, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "dynamic_fps": {"type": "move_speed"}, "alpha": 255}
+            ],
+			"tired":
+            [
+                {"name": "tired", "mode": "map", "repeat": false},
+                {"sheet": 1, "frame": 20, "dx": 0, "dy": 0, "speed_x": 0, "speed_y": 0, "fps": 5, "alpha": 255}
+            ]
+		}
+    }
+}

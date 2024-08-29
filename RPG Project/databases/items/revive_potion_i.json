@@ -1,0 +1,14 @@
+{
+    "c_name": "revive_potion_i",
+    "name": "Revive Potion I",
+    "inventory_usable": true,
+    "description": "Revives the target to~50 HP.",
+    "type": "consumable",
+    "stackable" : true,
+    "sub_type": "heal",
+    "can_revive": true,
+    "heal_type": "hp",
+    "amount": 50,
+    "animations": "vfx_heal_potion_i",
+    "price": 50
+}

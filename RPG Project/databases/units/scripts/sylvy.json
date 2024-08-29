@@ -1,0 +1,31 @@
+{
+    "name": "sylvy",
+    "ingame_name": "Sylvy",
+    "type": "playable",
+    "color": "pink",
+    "graphics": "sylvy",
+    "portrait": "portrait",
+    "class": "oracle",
+    "equipment": {"r_hand": "iron_sword"},
+    "magic": ["fire", "heal"],
+    "stats": {"lvl": 1,
+              "hp": 440, 
+              "mp": 5, 
+              "str": 9, 
+              "mag": 11, 
+              "skl": 6, 
+              "spd": 5, 
+              "lck": 3, 
+              "def": 4, 
+              "res": 7, 
+              "con": 6,
+              "exp": 0},
+    "equipment_rank": {
+        "weapon":["sword", "dagger", "rod"],
+        "shield": ["light"],
+        "head_gear": ["cloth"],
+        "armor": ["cloth"],
+        "foot_gear": ["leather", "cloth"]
+    },
+    "animations": "sylvy_anim"
+}

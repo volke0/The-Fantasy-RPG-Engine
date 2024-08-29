@@ -1,0 +1,14 @@
+[
+    {"type": "UI", "folder": "UI"},
+    {"type": "Tilesets", "folder": "tilesets"},
+    {"type": "Tilesets", "folder": "map"},
+    {"type": "Fonts", "folder": "fonts"},
+    {"type": "char", "name": "phantom", "folder": "characters/main/phantom"},
+    {"type": "char", "name": "sylvy", "folder": "characters/main/sylvy"},
+    {"type": "char", "name": "basic_enemies", "folder": "characters/enemies/"},
+    {"type": "backgrounds", "folder": "backgrounds"},
+    {"type": "vfx", "name": "items", "folder": "vfx/items/"},
+    {"type": "vfx", "name": "magic", "folder": "vfx/magic/"},
+    {"type": "vfx", "name": "effects", "folder": "vfx/"},
+    {"type": "icon", "name": "buffs", "folder": "icons/buffs/"}
+]

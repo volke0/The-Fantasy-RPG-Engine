@@ -1,0 +1,25 @@
+{
+    "Settings":
+    [
+        {
+            "name": "sword_hit_effect",
+            "graphics": "effects",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "slash_effect", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "sword_hit", "frame": 1, "dx": -20, "dy": 5, "fps": 1, "sfx": "sword_hit2", "on_target": true, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 2, "dx": -20, "dy": -10, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 3, "dx": -25, "dy": -20, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 4, "dx": -26, "dy": -31, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 5, "dx": -20, "dy": -55, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 4, "dx": -26, "dy": -31, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 3, "dx": -25, "dy": -20, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 2, "dx": -20, "dy": -10, "fps": 1, "alpha": 255},
+        {"sheet": "sword_hit", "frame": 1, "dx": -20, "dy": 5, "fps": 1, "alpha": 255},
+        {"sheet": "null", "fps": 1, "alpha": 255}
+    ]
+}

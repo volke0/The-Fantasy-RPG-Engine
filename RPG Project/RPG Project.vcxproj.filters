@@ -1,0 +1,1686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\scene manager">
+      <UniqueIdentifier>{0efb26d5-b85d-4bdf-bc4e-069df76ec4a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases">
+      <UniqueIdentifier>{2b588678-2068-482d-98a1-f8b464cf9acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers">
+      <UniqueIdentifier>{095c3757-422e-48fa-a051-ca783913a9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\title">
+      <UniqueIdentifier>{6335b4b1-86a7-46dd-a922-e3038d3e26e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{1581a52d-882b-4ff2-aa34-87821b602b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{1a6de399-5aff-4e85-96f9-9c796b9ebe43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\fade">
+      <UniqueIdentifier>{bc7d48d1-a303-4a9f-b57e-a3ec57d092bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\timer">
+      <UniqueIdentifier>{b305ad9d-c7a5-4026-b93d-fb81ec0dc13c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\level">
+      <UniqueIdentifier>{3e33daee-3de7-436e-81dc-0165a81d2905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\map">
+      <UniqueIdentifier>{f54d6744-c90b-4f61-b294-80e545a2e001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units">
+      <UniqueIdentifier>{a4f52d80-8f2d-44d0-b385-ed0de12d9811}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units\party">
+      <UniqueIdentifier>{450e115c-7bc0-47d7-b168-5752a9a1e7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\level">
+      <UniqueIdentifier>{662137fc-9c4e-4562-922a-ff9460fa909f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{4305241e-641c-45ee-a8a0-986cc9c0eb47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers">
+      <UniqueIdentifier>{252e3d5e-0736-4e59-a929-17e6fd891c75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event">
+      <UniqueIdentifier>{2e0c2326-8201-4a2b-81e5-c1870914429d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event">
+      <UniqueIdentifier>{f94f6084-be3c-4918-8cfd-9930bb810401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\flags">
+      <UniqueIdentifier>{b214db7a-a216-4366-a165-46a3a0b1f007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions">
+      <UniqueIdentifier>{76e8397e-8e78-44ce-aa3f-e59b630c2787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\area">
+      <UniqueIdentifier>{04517577-5855-4a80-a267-5413958d4b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\text">
+      <UniqueIdentifier>{139ced2c-781c-4260-966d-161161484070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\text_box">
+      <UniqueIdentifier>{2912acca-d78b-4e05-8fbc-6c46c627a934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\graphics">
+      <UniqueIdentifier>{fc82d4c7-2aef-4369-818e-68d420c2ca00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\text_box\dialogue">
+      <UniqueIdentifier>{35138c39-900f-49ab-bc73-f2eb011f6bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\unit">
+      <UniqueIdentifier>{a2a2e8da-b23e-4ead-8321-12957e5b3d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\event_manager">
+      <UniqueIdentifier>{038b53fa-3c37-4502-9528-24ea0a44751f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\movement">
+      <UniqueIdentifier>{de7a2c7f-4bc4-4f05-9edb-3f5d4abb6c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\movement">
+      <UniqueIdentifier>{c2347184-4e19-4634-9bf5-10605058f864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle_scene">
+      <UniqueIdentifier>{f50f22ed-ccfc-4b88-9a94-2b781442f63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\state">
+      <UniqueIdentifier>{9acbed30-e03a-457e-82bb-f1355e816de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation">
+      <UniqueIdentifier>{0d927944-1028-4889-9850-b59b09ee982b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\character">
+      <UniqueIdentifier>{0611a79a-a0e5-4bd5-9861-ea5d30fb8690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\VFX">
+      <UniqueIdentifier>{86d1a90e-a5a5-4206-97bd-55e558bac7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sprites">
+      <UniqueIdentifier>{b2598117-5673-4295-a378-398c9019434d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items">
+      <UniqueIdentifier>{d2204569-a773-4576-b0f3-de3c8cb8ffe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\item">
+      <UniqueIdentifier>{9cfadd4f-852a-40a4-972f-dfd161da250c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\vfx_animation">
+      <UniqueIdentifier>{60956596-a6ce-4224-8838-e2e487eb7600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\sfx">
+      <UniqueIdentifier>{e684cab1-0e96-4d7b-964e-47712ee838c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\condition">
+      <UniqueIdentifier>{6a396741-5b2d-4ea2-bec0-4335de7ff96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\condition\battle">
+      <UniqueIdentifier>{d0329d35-7da8-4783-af69-11916888b795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\palette">
+      <UniqueIdentifier>{941ca45d-89d4-4de3-a109-6c1f0b5e7a15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\color">
+      <UniqueIdentifier>{893b94cb-8077-4a40-b9b1-9929c0ce60a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\mask">
+      <UniqueIdentifier>{cef1c86a-0dd5-43c9-9aed-8b0d2cda74aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\mask">
+      <UniqueIdentifier>{543f33ef-e592-48c9-a0d3-68aab71e2a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\text">
+      <UniqueIdentifier>{bc123533-9484-40e7-bca7-c812242c103b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus">
+      <UniqueIdentifier>{81dc8820-882d-45a1-ab06-7be1bf22bec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\main menu">
+      <UniqueIdentifier>{a2c384c0-3386-460a-8b5d-9886ac5f80ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\save select">
+      <UniqueIdentifier>{118757be-fb46-4237-ae53-efbfad56da97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\battle">
+      <UniqueIdentifier>{89cd6656-fcff-4822-a346-11993781fe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menus">
+      <UniqueIdentifier>{569176bc-462e-42d3-bcc1-8ebab674259d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menus\battle">
+      <UniqueIdentifier>{49961a2d-de15-4638-a927-6328af45976e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{24924682-bcac-4b73-8835-32688850267f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\music">
+      <UniqueIdentifier>{a2d88d6a-41bc-40ab-9d8e-0c2c8b4512b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\sound">
+      <UniqueIdentifier>{7bd054e8-4572-4063-9b67-a199fcdd4f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\state\unit">
+      <UniqueIdentifier>{f6d6b13c-e743-4152-98d9-d8be44830f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\state\battle">
+      <UniqueIdentifier>{8bd31461-b353-46e8-8344-6c9fc85bd46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\battle\menu">
+      <UniqueIdentifier>{5736a3e7-f29b-4354-8962-2cc9dea01873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\state\battle\menu">
+      <UniqueIdentifier>{ece795b6-f626-47f5-a565-af3566012d5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\battle">
+      <UniqueIdentifier>{13000bda-decd-426c-9856-b650a9b8cac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\battle_manager">
+      <UniqueIdentifier>{a06dae21-57b8-40a5-987a-f96d16e61426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle">
+      <UniqueIdentifier>{8a9dd3f8-0b0b-4914-af31-46bf397688c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\calculation">
+      <UniqueIdentifier>{0c5c557f-92c7-4cbd-abbd-6eaa50535958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation">
+      <UniqueIdentifier>{1f474b6d-1a8f-4bdf-b58e-2977b6416076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\controller">
+      <UniqueIdentifier>{8c2b2579-14f7-49ae-be46-d0f40bb967c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units\classes">
+      <UniqueIdentifier>{4519d138-57c0-4d97-8c9f-30f3eaaebb78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\classes">
+      <UniqueIdentifier>{7ab8e804-0a2c-479e-b1ce-175a7b972657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\charts">
+      <UniqueIdentifier>{d8ffd321-3873-4788-a88a-c908311fd698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu">
+      <UniqueIdentifier>{9e7906ea-69bb-42d5-adf7-d298002b7599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu\battle">
+      <UniqueIdentifier>{c43d92c9-f4cc-4423-8a25-56969255b424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu\battle\exp">
+      <UniqueIdentifier>{745a724e-a7a4-4a7e-be9a-70a2153d7bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\text">
+      <UniqueIdentifier>{2f9a74ab-132f-44ad-aae6-abbda356e690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu\calculation">
+      <UniqueIdentifier>{b54a406b-6e16-4624-b9a1-37635635fb90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu\calculation\lvl_up">
+      <UniqueIdentifier>{d0872b4c-4357-45ed-9453-5e9fa6f00596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\menu\battle\lvl_up">
+      <UniqueIdentifier>{d702c198-7ef9-48ef-915b-212a123de8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\magic">
+      <UniqueIdentifier>{5856e525-c4a8-42c1-8b96-f37d48eea603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor">
+      <UniqueIdentifier>{31b5fd02-0b00-4675-8f65-ad14a2e0b269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\battle">
+      <UniqueIdentifier>{13a3b580-a82e-4f90-b797-bb5fe8869d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\unit">
+      <UniqueIdentifier>{8b90e9eb-9e85-4dad-97cd-e48a793c8a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\unit\status">
+      <UniqueIdentifier>{5fa3070a-5103-436f-921a-05b9e4f20238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\unit\collision">
+      <UniqueIdentifier>{d117fc94-b77a-4cdd-bf34-d142b8a11df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\unit\list">
+      <UniqueIdentifier>{e773117e-9cef-4e1c-a155-bea7ecd6b191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\unit\list\magic">
+      <UniqueIdentifier>{525819bc-b203-4192-8e40-8fd3e7767321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\magic">
+      <UniqueIdentifier>{ca50795f-571a-4292-9f71-d4aa8cbb24c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\calculation\magic">
+      <UniqueIdentifier>{1fb62d35-03fd-4aee-9866-0eacce327969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation\manager">
+      <UniqueIdentifier>{ec997771-7cf5-468f-9068-cd3cb6d1798c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation\display_handlers">
+      <UniqueIdentifier>{6adcfdff-6da4-450f-9f82-601d29110922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation\display_handlers\attack">
+      <UniqueIdentifier>{cbba2924-0e76-4656-8e76-39d0f07b6a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation\display_handlers\magic">
+      <UniqueIdentifier>{cc3c46f7-cb05-4c9f-a5a7-7eb36f26f4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\battle\logic">
+      <UniqueIdentifier>{1565c668-c3f1-49da-94f1-c2be0e70cf4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\battle\logic\unit">
+      <UniqueIdentifier>{2fc1aeb8-4dee-4103-95c0-919fbd00e178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\consumables">
+      <UniqueIdentifier>{dbea3c5c-3f13-41eb-a96b-e6a2edfcce14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inventory">
+      <UniqueIdentifier>{59a599c0-0555-48d9-bea4-a6d8ee37d6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\inventory\item">
+      <UniqueIdentifier>{59963211-2aa7-4b3e-bde2-4beb78d2e807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\music">
+      <UniqueIdentifier>{65dcc98a-72b4-438a-a5ad-9494d2a257fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\calculation\item">
+      <UniqueIdentifier>{87c152d8-9fbf-4445-8f7d-35ec695043aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\battle\animation\display_handlers\item">
+      <UniqueIdentifier>{35bcd67b-31d0-4176-9b7b-22eab2f7924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{03e5bb25-55b8-47f3-8e6b-286bedcf6c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI\battle">
+      <UniqueIdentifier>{2719db26-09c9-4438-be39-c20f63d4690f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu">
+      <UniqueIdentifier>{4d8eb4ea-d4c3-421d-8846-85af9ba8d6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\player menu">
+      <UniqueIdentifier>{13b6ff0a-6b12-4a2f-8af4-de8fbc2cb8fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\menu">
+      <UniqueIdentifier>{c8166abe-d80a-4028-b2fb-f2775a72a8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\item status menu">
+      <UniqueIdentifier>{ae29e105-1c71-4552-8bdf-a648bb4ac417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\confirm menu">
+      <UniqueIdentifier>{1381b84e-3f93-4297-ac25-80874550f91b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\confirm menu\item">
+      <UniqueIdentifier>{f28b343f-efbc-4500-999c-d228c916798d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\apply ability menu">
+      <UniqueIdentifier>{9066c3d6-e5f6-41a8-99c4-3f4b07756132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\apply ability menu\item">
+      <UniqueIdentifier>{1b42c7ae-aa39-48c8-ac05-345566b72a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effect">
+      <UniqueIdentifier>{b9cd21f3-7afd-4701-a9a4-b75108322973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effect\consumable">
+      <UniqueIdentifier>{e8deea7c-e3d2-468b-906a-521b444c42e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\apply ability menu\player_select">
+      <UniqueIdentifier>{a9b599de-9e01-4163-9a58-070b1c7e3d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\ability menu">
+      <UniqueIdentifier>{7f5f46b4-b66b-4f7c-810f-e9465b5d2028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\apply ability menu\magic">
+      <UniqueIdentifier>{8b593051-c7a4-4a6e-b21f-a51c99f15669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\magic status menu">
+      <UniqueIdentifier>{ef0b7a9a-a206-409a-9fd5-524c52e46e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers">
+      <UniqueIdentifier>{18c6559f-818a-45f8-8bb2-3b4911e9d468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\battle">
+      <UniqueIdentifier>{a795688b-0718-4ecb-bffb-afd628cbd875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\battle\unit_select">
+      <UniqueIdentifier>{5235903a-3c8f-4cdf-843d-f603666f3c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\battle\general">
+      <UniqueIdentifier>{6cae9007-63c3-4838-9703-9c7b169a6b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\battle\manager">
+      <UniqueIdentifier>{f044baaf-8a30-4f5f-b2b9-92b5cd68c73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\battle\magic">
+      <UniqueIdentifier>{c7cf03ba-f5b7-480d-b597-aeba25f0ae73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\handler">
+      <UniqueIdentifier>{fd5bc5b7-e273-4ee1-b923-20037edfe5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\manager">
+      <UniqueIdentifier>{8a5c4048-0cf9-433e-ba7c-8218aa58865c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\menu">
+      <UniqueIdentifier>{0cd34d5a-512b-473f-999d-646a9f2ddd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\menu\manager">
+      <UniqueIdentifier>{aee805a0-1143-46a3-9f0f-94a92c7d9d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\menu\general">
+      <UniqueIdentifier>{31147008-a67f-475d-9626-c5db358c1c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cursor\cursor handlers\menu\magic">
+      <UniqueIdentifier>{b84bc860-3e31-466e-a90f-6afb30bb93a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effect\magic">
+      <UniqueIdentifier>{f97cc36b-02c6-439f-8491-fc39ab17c823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\equip status menu">
+      <UniqueIdentifier>{86f938fe-0f92-48d2-af44-347ffe5e2a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\equip select menu">
+      <UniqueIdentifier>{4d7ba239-ceb7-48e3-9035-40e9d9f989f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\equipment system">
+      <UniqueIdentifier>{bb28d949-43b1-4f50-b94a-a2acf4aca07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment">
+      <UniqueIdentifier>{38da9daf-3342-4725-b1d9-e2d2bd3a547d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment\weapon">
+      <UniqueIdentifier>{681970e8-8aa1-41f7-90fa-b30f4b1d3cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\confirm menu\equipment">
+      <UniqueIdentifier>{4126cea8-cf87-4c38-b16a-82de8561c080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment\shield">
+      <UniqueIdentifier>{ec734978-3c86-4665-a800-a47b49404608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment\armor">
+      <UniqueIdentifier>{afaab462-d3a9-4594-bda9-97932a5a3e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment\head gear">
+      <UniqueIdentifier>{8c36a27b-e110-488e-a32c-83d944e2e7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\items\equipment\foot gear">
+      <UniqueIdentifier>{dd15199a-d7f4-49fc-a7ea-0e210c96027f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\status info menu">
+      <UniqueIdentifier>{bc1f74e0-fc6e-417f-8285-05d85aaf806a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\formation menu">
+      <UniqueIdentifier>{ab8c5ca0-4099-412c-8eac-bc264ab26d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\formation">
+      <UniqueIdentifier>{be7d740b-60da-49c5-aa3f-8912c65da503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\formation\party">
+      <UniqueIdentifier>{3a80a10a-7912-400f-83d0-9f2ea5c3c36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\formation">
+      <UniqueIdentifier>{1b26482d-3a7e-4546-881c-ddaa7bd09901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\config menu">
+      <UniqueIdentifier>{f6fa3b14-ed47-4362-8f1d-fa76fe1ff841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units\npc">
+      <UniqueIdentifier>{81b7bd2e-eb87-4ecb-923f-dad3aeb0a08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units\party\enemy party">
+      <UniqueIdentifier>{a7d18346-2b8b-43b8-ac79-7fb4e314921c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\units\party\player party">
+      <UniqueIdentifier>{d51188a2-ccd5-4c09-b43b-cf6c4a5a5b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\enemy parties">
+      <UniqueIdentifier>{b0b35e6d-5028-49f6-9b19-7a73b1b943bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\character\controller">
+      <UniqueIdentifier>{499402fc-bb7b-4438-8e55-da6e89178e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\character\animation">
+      <UniqueIdentifier>{5898ada0-8efe-45bb-b840-4bcf4ad7ff12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\character\controller\battle">
+      <UniqueIdentifier>{aa017291-f440-4c75-a39f-9486f51b55a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller managers">
+      <UniqueIdentifier>{becc5878-1bcf-43ce-bf82-d92c2252a8d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller managers\animation">
+      <UniqueIdentifier>{2a97c1e5-b9d1-47cb-9e0b-0a6cde4d456c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controller managers\animation\character">
+      <UniqueIdentifier>{551089ec-9682-4ec7-9d78-767550a7c555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation\character\controller\map">
+      <UniqueIdentifier>{d9faf5d3-7718-4848-94ba-6d35489f6285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event\condition">
+      <UniqueIdentifier>{06e39406-9d4b-4a6c-a851-da783a23696b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event\condition\area">
+      <UniqueIdentifier>{0c9635d2-e8ac-4165-ad0e-678617523497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event\condition\talk">
+      <UniqueIdentifier>{4ad27f2f-0e2f-45f4-98a3-30ee27e2e30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\talk">
+      <UniqueIdentifier>{97df638a-a991-4df3-b2c1-973edaae188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event\condition\map_objects">
+      <UniqueIdentifier>{9fe4ebf8-14cc-46ea-a697-db9013f6aff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\map_objects">
+      <UniqueIdentifier>{52b98328-9c85-46bb-b9b4-5a0cf1d9da57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\text box">
+      <UniqueIdentifier>{c8db9919-702f-411c-96b4-a17cf2bb2924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\text_box\notification">
+      <UniqueIdentifier>{65451f6d-b81c-4ab1-a37e-79119fd046cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\text box">
+      <UniqueIdentifier>{ee8db996-0794-4aee-99fe-b9f501e70142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\map_objects\chest">
+      <UniqueIdentifier>{651754f0-ff4f-4ace-913e-8d218ce9e02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\map_objects\door">
+      <UniqueIdentifier>{340043f7-95cf-4e27-ae15-989f446db8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop">
+      <UniqueIdentifier>{67870340-0d58-4865-b81f-418e0876eec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\sub_menu">
+      <UniqueIdentifier>{3572dbc6-fdc9-4977-a590-bd24de833f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\status menu\sub status menu">
+      <UniqueIdentifier>{ba3cdcb2-0973-4fdf-a20c-bd62707cb53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\initial menu">
+      <UniqueIdentifier>{18b522f4-660b-4961-87b6-551690664223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\buy menu">
+      <UniqueIdentifier>{17728294-fba0-49f4-9f6e-b78a95d95b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\sub shop menu">
+      <UniqueIdentifier>{29c6b1f6-6a98-468d-b455-d0c550cd99bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\amount menu">
+      <UniqueIdentifier>{fc95a923-e1f2-4f20-ad55-3b1289ca5ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\confirm menu">
+      <UniqueIdentifier>{af6648e8-8bdd-4f00-9243-939487f85d5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\shop\sell shop">
+      <UniqueIdentifier>{c5ed162e-884f-42a5-a9dc-ede4a52a0b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\shop">
+      <UniqueIdentifier>{e1395ec2-1fab-49a3-a5c7-f4ce150af3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\unit_block">
+      <UniqueIdentifier>{82321b7a-fee8-4a51-ac4c-f34e0532c05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\handlers\event">
+      <UniqueIdentifier>{4f922242-0392-412b-aeb4-14ee3119b6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers\event\condition\always_trigger">
+      <UniqueIdentifier>{d2484fb9-dac5-43f7-980d-86ef7c0a6e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditions\always_trigger">
+      <UniqueIdentifier>{49a5f488-4516-4089-b306-541529c3bd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\scene_menus\game over">
+      <UniqueIdentifier>{3d36bf6d-8a4e-4d00-b7ce-e448d27facc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\ai">
+      <UniqueIdentifier>{87cbea5b-d5f4-4a4f-85a6-2ce178df5e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buffs">
+      <UniqueIdentifier>{9395f4da-4574-4aa8-822d-08aadd384220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buffs\manager">
+      <UniqueIdentifier>{f786f277-79c6-4a32-be6e-26dd2949633d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\databases\buffs">
+      <UniqueIdentifier>{7e435bfa-08d9-44f3-92b1-413ffcb1e2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\buffs\battle manager">
+      <UniqueIdentifier>{277722ba-8771-48f9-be72-43b8858bbc63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>Source Files\scene manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files\databases</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>Source Files\title</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_menu.cpp">
+      <Filter>Source Files\scene\scene_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\main menu</Filter>
+    </ClCompile>
+    <ClCompile Include="handler.cpp">
+      <Filter>Source Files\handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="input_handler.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="save_select.cpp">
+      <Filter>Source Files\scene\scene_menus\save select</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>Source Files\fade</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Source Files\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>Source Files\level</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files\map</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Source Files\units</Filter>
+    </ClCompile>
+    <ClCompile Include="level_database.cpp">
+      <Filter>Source Files\databases\level</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="event_controller.cpp">
+      <Filter>Source Files\controllers\event</Filter>
+    </ClCompile>
+    <ClCompile Include="event.cpp">
+      <Filter>Source Files\event</Filter>
+    </ClCompile>
+    <ClCompile Include="flags.cpp">
+      <Filter>Source Files\flags</Filter>
+    </ClCompile>
+    <ClCompile Include="collision_handler.cpp">
+      <Filter>Source Files\handlers\unit\collision</Filter>
+    </ClCompile>
+    <ClCompile Include="area_controller.cpp">
+      <Filter>Source Files\controllers\event\condition\area</Filter>
+    </ClCompile>
+    <ClCompile Include="condition.cpp">
+      <Filter>Source Files\conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="area_condition.cpp">
+      <Filter>Source Files\conditions\area</Filter>
+    </ClCompile>
+    <ClCompile Include="text_database.cpp">
+      <Filter>Source Files\databases\text</Filter>
+    </ClCompile>
+    <ClCompile Include="text_box.cpp">
+      <Filter>Source Files\text_box</Filter>
+    </ClCompile>
+    <ClCompile Include="gfx_database.cpp">
+      <Filter>Source Files\databases\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="dialogue_box.cpp">
+      <Filter>Source Files\text_box\dialogue</Filter>
+    </ClCompile>
+    <ClCompile Include="event_manager.cpp">
+      <Filter>Source Files\event_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_database.cpp">
+      <Filter>Source Files\databases\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="movement_controller.cpp">
+      <Filter>Source Files\controllers\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="path_finding.cpp">
+      <Filter>Source Files\movement</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_scene.cpp">
+      <Filter>Source Files\battle_scene</Filter>
+    </ClCompile>
+    <ClCompile Include="state_controller.cpp">
+      <Filter>Source Files\controllers\state</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="vfx_animation.cpp">
+      <Filter>Source Files\animation\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="anim_controller.cpp">
+      <Filter>Source Files\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>Source Files\sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source Files\items</Filter>
+    </ClCompile>
+    <ClCompile Include="item_database.cpp">
+      <Filter>Source Files\databases\item</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Source Files\items\equipment\weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="vfx_anim_database.cpp">
+      <Filter>Source Files\databases\vfx_animation</Filter>
+    </ClCompile>
+    <ClCompile Include="sfx_database.cpp">
+      <Filter>Source Files\databases\sfx</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_condition_controller.cpp">
+      <Filter>Source Files\controllers\condition</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_condition_controller.cpp">
+      <Filter>Source Files\controllers\condition\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="palette_database.cpp">
+      <Filter>Source Files\databases\palette</Filter>
+    </ClCompile>
+    <ClCompile Include="color_database.cpp">
+      <Filter>Source Files\databases\color</Filter>
+    </ClCompile>
+    <ClCompile Include="anim_mask.cpp">
+      <Filter>Source Files\animation\mask</Filter>
+    </ClCompile>
+    <ClCompile Include="mask_database.cpp">
+      <Filter>Source Files\databases\mask</Filter>
+    </ClCompile>
+    <ClCompile Include="text_char_anim.cpp">
+      <Filter>Source Files\animation\text</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_controller.cpp">
+      <Filter>Source Files\controllers\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_ui.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="player_menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="audio_player.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_player.cpp">
+      <Filter>Source Files\audio\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_state_controller.cpp">
+      <Filter>Source Files\controllers\state\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_state_controller.cpp">
+      <Filter>Source Files\controllers\state\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_menu_controller.cpp">
+      <Filter>Source Files\controllers\battle\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_menu_state_controller.cpp">
+      <Filter>Source Files\controllers\state\battle\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_select.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battle.cpp">
+      <Filter>Source Files\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_manager.cpp">
+      <Filter>Source Files\controllers\battle_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stat_handler.cpp">
+      <Filter>Source Files\handlers\unit\status</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation_handler.cpp">
+      <Filter>Source Files\handlers\battle\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_controller_handler.cpp">
+      <Filter>Source Files\handlers\battle\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="exp_menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_class.cpp">
+      <Filter>Source Files\units\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="class_database.cpp">
+      <Filter>Source Files\databases\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="chart_database.cpp">
+      <Filter>Source Files\databases\charts</Filter>
+    </ClCompile>
+    <ClCompile Include="exp_menu_handler.cpp">
+      <Filter>Source Files\handlers\battle\menu\battle\exp</Filter>
+    </ClCompile>
+    <ClCompile Include="lvl_up_screen.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Source Files\text</Filter>
+    </ClCompile>
+    <ClCompile Include="growth_calculator.cpp">
+      <Filter>Source Files\handlers\battle\menu\calculation\lvl_up</Filter>
+    </ClCompile>
+    <ClCompile Include="lvl_up_screen_handler.cpp">
+      <Filter>Source Files\handlers\battle\menu\battle\lvl_up</Filter>
+    </ClCompile>
+    <ClCompile Include="vfx_controller.cpp">
+      <Filter>Source Files\animation\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_database.cpp">
+      <Filter>Source Files\databases\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="c_unit_select_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\battle\unit_select</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\battle\general</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor_manager.cpp">
+      <Filter>Source Files\cursor\cursor handlers\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_cursor.cpp">
+      <Filter>Source Files\cursor\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>Source Files\cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_cursor_manager.cpp">
+      <Filter>Source Files\cursor\cursor handlers\battle\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_battle_cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="list_handler.cpp">
+      <Filter>Source Files\handlers\unit\list</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_list_handler.cpp">
+      <Filter>Source Files\handlers\unit\list\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor_mag_select_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\battle\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic.cpp">
+      <Filter>Source Files\items\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_calculation_handler.cpp">
+      <Filter>Source Files\handlers\battle\calculation\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="btl_animation_manager.cpp">
+      <Filter>Source Files\handlers\battle\animation\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="display_handler.cpp">
+      <Filter>Source Files\handlers\battle\animation\display_handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="attack_display_handler.cpp">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_display_handler.cpp">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_battle_logic_controller.cpp">
+      <Filter>Source Files\controllers\battle\logic\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="item_menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="consumable.cpp">
+      <Filter>Source Files\items\consumables</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory_base.cpp">
+      <Filter>Source Files\inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="item_inventory.cpp">
+      <Filter>Source Files\inventory\item</Filter>
+    </ClCompile>
+    <ClCompile Include="music_database.cpp">
+      <Filter>Source Files\databases\music</Filter>
+    </ClCompile>
+    <ClCompile Include="music_player.cpp">
+      <Filter>Source Files\audio\music</Filter>
+    </ClCompile>
+    <ClCompile Include="item_calculation_handler.cpp">
+      <Filter>Source Files\handlers\battle\calculation\item</Filter>
+    </ClCompile>
+    <ClCompile Include="item_display_handler.cpp">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\item</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_base.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="battle_ai.cpp">
+      <Filter>Source Files\AI\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu</Filter>
+    </ClCompile>
+    <ClCompile Include="player_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\player menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_cursor.cpp">
+      <Filter>Source Files\cursor\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_cursor_manager.cpp">
+      <Filter>Source Files\cursor\cursor handlers\menu\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="basic_menu_cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\menu\general</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\sub status menu</Filter>
+    </ClCompile>
+    <ClCompile Include="item_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\item status menu</Filter>
+    </ClCompile>
+    <ClCompile Include="confirm_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu</Filter>
+    </ClCompile>
+    <ClCompile Include="item_confirm_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu\item</Filter>
+    </ClCompile>
+    <ClCompile Include="apply_ability_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu</Filter>
+    </ClCompile>
+    <ClCompile Include="apply_item_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\item</Filter>
+    </ClCompile>
+    <ClCompile Include="effect_base.cpp">
+      <Filter>Source Files\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="item_effect.cpp">
+      <Filter>Source Files\effect\consumable</Filter>
+    </ClCompile>
+    <ClCompile Include="player_select_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\player_select</Filter>
+    </ClCompile>
+    <ClCompile Include="ability_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\ability menu</Filter>
+    </ClCompile>
+    <ClCompile Include="apply_magic_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\magic status menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_magic_cursor_handler.cpp">
+      <Filter>Source Files\cursor\cursor handlers\menu\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="magic_effect.cpp">
+      <Filter>Source Files\effect\magic</Filter>
+    </ClCompile>
+    <ClCompile Include="equip_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\equip status menu</Filter>
+    </ClCompile>
+    <ClCompile Include="equip_select_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\equip select menu</Filter>
+    </ClCompile>
+    <ClCompile Include="equip_system.cpp">
+      <Filter>Source Files\equipment system</Filter>
+    </ClCompile>
+    <ClCompile Include="equipment_base.cpp">
+      <Filter>Source Files\items\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="shield.cpp">
+      <Filter>Source Files\items\equipment\shield</Filter>
+    </ClCompile>
+    <ClCompile Include="foot_gear.cpp">
+      <Filter>Source Files\items\equipment\foot gear</Filter>
+    </ClCompile>
+    <ClCompile Include="head_gear.cpp">
+      <Filter>Source Files\items\equipment\head gear</Filter>
+    </ClCompile>
+    <ClCompile Include="armor.cpp">
+      <Filter>Source Files\items\equipment\armor</Filter>
+    </ClCompile>
+    <ClCompile Include="equip_confirm_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu\equipment</Filter>
+    </ClCompile>
+    <ClCompile Include="status_info_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\status info menu</Filter>
+    </ClCompile>
+    <ClCompile Include="formation_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\formation menu</Filter>
+    </ClCompile>
+    <ClCompile Include="formation_base.cpp">
+      <Filter>Source Files\formation</Filter>
+    </ClCompile>
+    <ClCompile Include="party_formation.cpp">
+      <Filter>Source Files\formation\party</Filter>
+    </ClCompile>
+    <ClCompile Include="formation_database.cpp">
+      <Filter>Source Files\databases\formation</Filter>
+    </ClCompile>
+    <ClCompile Include="config_status_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\status menu\config menu</Filter>
+    </ClCompile>
+    <ClCompile Include="npc.cpp">
+      <Filter>Source Files\units\npc</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_party.cpp">
+      <Filter>Source Files\units\party\enemy party</Filter>
+    </ClCompile>
+    <ClCompile Include="party.cpp">
+      <Filter>Source Files\units\party\player party</Filter>
+    </ClCompile>
+    <ClCompile Include="party_base.cpp">
+      <Filter>Source Files\units\party</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_party_database.cpp">
+      <Filter>Source Files\databases\enemy parties</Filter>
+    </ClCompile>
+    <ClCompile Include="char_anim_controller.cpp">
+      <Filter>Source Files\animation\character\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="char_anim.cpp">
+      <Filter>Source Files\animation\character\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="char_btl_anim_controller.cpp">
+      <Filter>Source Files\animation\character\controller\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="char_anim_controller_manager.cpp">
+      <Filter>Source Files\controller managers\animation\character</Filter>
+    </ClCompile>
+    <ClCompile Include="char_map_anim_controller.cpp">
+      <Filter>Source Files\animation\character\controller\map</Filter>
+    </ClCompile>
+    <ClCompile Include="condition_controller.cpp">
+      <Filter>Source Files\controllers\event\condition</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_controller.cpp">
+      <Filter>Source Files\controllers\event\condition\talk</Filter>
+    </ClCompile>
+    <ClCompile Include="talk_condition.cpp">
+      <Filter>Source Files\conditions\talk</Filter>
+    </ClCompile>
+    <ClCompile Include="map_obj_controller.cpp">
+      <Filter>Source Files\controllers\event\condition\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="map_obj_condition.cpp">
+      <Filter>Source Files\conditions\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="text_box_controller.cpp">
+      <Filter>Source Files\controllers\text box</Filter>
+    </ClCompile>
+    <ClCompile Include="notification_box.cpp">
+      <Filter>Source Files\text_box\notification</Filter>
+    </ClCompile>
+    <ClCompile Include="text_box_settings_database.cpp">
+      <Filter>Source Files\databases\text box</Filter>
+    </ClCompile>
+    <ClCompile Include="chest_obj_condition.cpp">
+      <Filter>Source Files\conditions\map_objects\chest</Filter>
+    </ClCompile>
+    <ClCompile Include="door_obj_condition.cpp">
+      <Filter>Source Files\conditions\map_objects\door</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\sub_menu</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\initial menu</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_buy_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\buy menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sub_shop_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\sub shop menu</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_confirm_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\confirm menu</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_amount_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\amount menu</Filter>
+    </ClCompile>
+    <ClCompile Include="sell_shop_menu.cpp">
+      <Filter>Source Files\scene\scene_menus\shop\sell shop</Filter>
+    </ClCompile>
+    <ClCompile Include="shop_database.cpp">
+      <Filter>Source Files\databases\shop</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_block_database.cpp">
+      <Filter>Source Files\databases\unit_block</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_block_handler.cpp">
+      <Filter>Source Files\handlers\event</Filter>
+    </ClCompile>
+    <ClCompile Include="always_trigger_controller.cpp">
+      <Filter>Source Files\controllers\event\condition\always_trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="always_trigger_condition.cpp">
+      <Filter>Source Files\conditions\always_trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="game_over_scene.cpp">
+      <Filter>Source Files\scene\scene_menus\game over</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClCompile>
+    <ClCompile Include="text_anim.cpp">
+      <Filter>Source Files\animation\text</Filter>
+    </ClCompile>
+    <ClCompile Include="ai_database.cpp">
+      <Filter>Source Files\databases\ai</Filter>
+    </ClCompile>
+    <ClCompile Include="buff_base.cpp">
+      <Filter>Source Files\buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="buff_database.cpp">
+      <Filter>Source Files\databases\buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="buff_manager.cpp">
+      <Filter>Source Files\buffs\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="buff_battle_manager.cpp">
+      <Filter>Source Files\buffs\battle manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>Source Files\scene manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Source Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Source Files\databases</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>Source Files\title</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\tileson.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_menu.h">
+      <Filter>Source Files\scene\scene_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.h">
+      <Filter>Source Files\scene\scene_menus\main menu</Filter>
+    </ClInclude>
+    <ClInclude Include="handler.h">
+      <Filter>Source Files\handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="input_handler.h">
+      <Filter>Source Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="save_select.h">
+      <Filter>Source Files\scene\scene_menus\save select</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>Source Files\fade</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Source Files\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>Source Files\level</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Source Files\map</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Source Files\units</Filter>
+    </ClInclude>
+    <ClInclude Include="level_database.h">
+      <Filter>Source Files\databases\level</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Source Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Source Files\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="event_controller.h">
+      <Filter>Source Files\controllers\event</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>Source Files\event</Filter>
+    </ClInclude>
+    <ClInclude Include="flags.h">
+      <Filter>Source Files\flags</Filter>
+    </ClInclude>
+    <ClInclude Include="collision_handler.h">
+      <Filter>Source Files\handlers\unit\collision</Filter>
+    </ClInclude>
+    <ClInclude Include="area_controller.h">
+      <Filter>Source Files\controllers\event\condition\area</Filter>
+    </ClInclude>
+    <ClInclude Include="condition.h">
+      <Filter>Source Files\conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="area_condition.h">
+      <Filter>Source Files\conditions\area</Filter>
+    </ClInclude>
+    <ClInclude Include="text_database.h">
+      <Filter>Source Files\databases\text</Filter>
+    </ClInclude>
+    <ClInclude Include="text_box.h">
+      <Filter>Source Files\text_box</Filter>
+    </ClInclude>
+    <ClInclude Include="gfx_database.h">
+      <Filter>Source Files\databases\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="dialogue_box.h">
+      <Filter>Source Files\text_box\dialogue</Filter>
+    </ClInclude>
+    <ClInclude Include="event_manager.h">
+      <Filter>Source Files\event_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_database.h">
+      <Filter>Source Files\databases\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="movement_controller.h">
+      <Filter>Source Files\controllers\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="path_finding.h">
+      <Filter>Source Files\movement</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_scene.h">
+      <Filter>Source Files\battle_scene</Filter>
+    </ClInclude>
+    <ClInclude Include="state_controller.h">
+      <Filter>Source Files\controllers\state</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Source Files\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="vfx_animation.h">
+      <Filter>Source Files\animation\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="anim_controller.h">
+      <Filter>Source Files\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.h">
+      <Filter>Source Files\sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Source Files\items</Filter>
+    </ClInclude>
+    <ClInclude Include="item_database.h">
+      <Filter>Source Files\databases\item</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.h">
+      <Filter>Source Files\items\equipment\weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="vfx_anim_database.h">
+      <Filter>Source Files\databases\vfx_animation</Filter>
+    </ClInclude>
+    <ClInclude Include="sfx_database.h">
+      <Filter>Source Files\databases\sfx</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_condition_controller.h">
+      <Filter>Source Files\controllers\condition</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_condition_controller.h">
+      <Filter>Source Files\controllers\condition\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="palette_database.h">
+      <Filter>Source Files\databases\palette</Filter>
+    </ClInclude>
+    <ClInclude Include="color_database.h">
+      <Filter>Source Files\databases\color</Filter>
+    </ClInclude>
+    <ClInclude Include="anim_mask.h">
+      <Filter>Source Files\animation\mask</Filter>
+    </ClInclude>
+    <ClInclude Include="mask_database.h">
+      <Filter>Source Files\databases\mask</Filter>
+    </ClInclude>
+    <ClInclude Include="text_char_anim.h">
+      <Filter>Source Files\animation\text</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_controller.h">
+      <Filter>Source Files\controllers\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_ui.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="player_menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="audio_player.h">
+      <Filter>Source Files\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_player.h">
+      <Filter>Source Files\audio\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_state_controller.h">
+      <Filter>Source Files\controllers\state\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_state_controller.h">
+      <Filter>Source Files\controllers\state\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_menu_controller.h">
+      <Filter>Source Files\controllers\battle\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_menu_state_controller.h">
+      <Filter>Source Files\controllers\state\battle\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_select.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battle.h">
+      <Filter>Source Files\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="stat_handler.h">
+      <Filter>Source Files\handlers\unit\status</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation_handler.h">
+      <Filter>Source Files\handlers\battle\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_controller_handler.h">
+      <Filter>Source Files\handlers\battle\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="exp_menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_class.h">
+      <Filter>Source Files\units\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="class_database.h">
+      <Filter>Source Files\databases\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="chart_database.h">
+      <Filter>Source Files\databases\charts</Filter>
+    </ClInclude>
+    <ClInclude Include="exp_menu_handler.h">
+      <Filter>Source Files\handlers\battle\menu\battle\exp</Filter>
+    </ClInclude>
+    <ClInclude Include="lvl_up_screen.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Source Files\text</Filter>
+    </ClInclude>
+    <ClInclude Include="growth_calculator.h">
+      <Filter>Source Files\handlers\battle\menu\calculation\lvl_up</Filter>
+    </ClInclude>
+    <ClInclude Include="lvl_up_screen_handler.h">
+      <Filter>Source Files\handlers\battle\menu\battle\lvl_up</Filter>
+    </ClInclude>
+    <ClInclude Include="vfx_controller.h">
+      <Filter>Source Files\animation\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_database.h">
+      <Filter>Source Files\databases\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="c_unit_select_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\battle\unit_select</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\battle\general</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor_manager.h">
+      <Filter>Source Files\cursor\cursor handlers\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_cursor.h">
+      <Filter>Source Files\cursor\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>Source Files\cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_cursor_manager.h">
+      <Filter>Source Files\cursor\cursor handlers\battle\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_battle_cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="list_handler.h">
+      <Filter>Source Files\handlers\unit\list</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_list_handler.h">
+      <Filter>Source Files\handlers\unit\list\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor_mag_select_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\battle\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
+      <Filter>Source Files\items\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_calculation_handler.h">
+      <Filter>Source Files\handlers\battle\calculation\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="btl_animation_manager.h">
+      <Filter>Source Files\handlers\battle\animation\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="display_handler.h">
+      <Filter>Source Files\handlers\battle\animation\display_handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="attack_display_handler.h">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_display_handler.h">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_battle_logic_controller.h">
+      <Filter>Source Files\controllers\battle\logic\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_manager.h">
+      <Filter>Source Files\controllers\battle_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="item_menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="consumable.h">
+      <Filter>Source Files\items\consumables</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory_base.h">
+      <Filter>Source Files\inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="item_inventory.h">
+      <Filter>Source Files\inventory\item</Filter>
+    </ClInclude>
+    <ClInclude Include="music_database.h">
+      <Filter>Source Files\databases\music</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Anthony\AppData\Local\Programs\Python\Python38\include\Python.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="music_player.h">
+      <Filter>Source Files\audio\music</Filter>
+    </ClInclude>
+    <ClInclude Include="item_calculation_handler.h">
+      <Filter>Source Files\handlers\battle\calculation\item</Filter>
+    </ClInclude>
+    <ClInclude Include="item_display_handler.h">
+      <Filter>Source Files\handlers\battle\animation\display_handlers\item</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_base.h">
+      <Filter>Source Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="battle_ai.h">
+      <Filter>Source Files\AI\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu</Filter>
+    </ClInclude>
+    <ClInclude Include="player_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\player menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_cursor.h">
+      <Filter>Source Files\cursor\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_cursor_manager.h">
+      <Filter>Source Files\cursor\cursor handlers\menu\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="basic_menu_cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\menu\general</Filter>
+    </ClInclude>
+    <ClInclude Include="item_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\item status menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\sub status menu</Filter>
+    </ClInclude>
+    <ClInclude Include="confirm_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu</Filter>
+    </ClInclude>
+    <ClInclude Include="item_confirm_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu\item</Filter>
+    </ClInclude>
+    <ClInclude Include="apply_ability_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu</Filter>
+    </ClInclude>
+    <ClInclude Include="apply_item_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\item</Filter>
+    </ClInclude>
+    <ClInclude Include="effect_base.h">
+      <Filter>Source Files\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="item_effect.h">
+      <Filter>Source Files\effect\consumable</Filter>
+    </ClInclude>
+    <ClInclude Include="player_select_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\player_select</Filter>
+    </ClInclude>
+    <ClInclude Include="ability_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\ability menu</Filter>
+    </ClInclude>
+    <ClInclude Include="apply_magic_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\apply ability menu\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\magic status menu</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_magic_cursor_handler.h">
+      <Filter>Source Files\cursor\cursor handlers\menu\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="magic_effect.h">
+      <Filter>Source Files\effect\magic</Filter>
+    </ClInclude>
+    <ClInclude Include="equip_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\equip status menu</Filter>
+    </ClInclude>
+    <ClInclude Include="equip_select_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\equip select menu</Filter>
+    </ClInclude>
+    <ClInclude Include="equip_system.h">
+      <Filter>Source Files\equipment system</Filter>
+    </ClInclude>
+    <ClInclude Include="equipment_base.h">
+      <Filter>Source Files\items\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="shield.h">
+      <Filter>Source Files\items\equipment\shield</Filter>
+    </ClInclude>
+    <ClInclude Include="foot_gear.h">
+      <Filter>Source Files\items\equipment\foot gear</Filter>
+    </ClInclude>
+    <ClInclude Include="head_gear.h">
+      <Filter>Source Files\items\equipment\head gear</Filter>
+    </ClInclude>
+    <ClInclude Include="armor.h">
+      <Filter>Source Files\items\equipment\armor</Filter>
+    </ClInclude>
+    <ClInclude Include="equip_confirm_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\confirm menu\equipment</Filter>
+    </ClInclude>
+    <ClInclude Include="status_info_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\status info menu</Filter>
+    </ClInclude>
+    <ClInclude Include="formation_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\formation menu</Filter>
+    </ClInclude>
+    <ClInclude Include="formation_base.h">
+      <Filter>Source Files\formation</Filter>
+    </ClInclude>
+    <ClInclude Include="party_formation.h">
+      <Filter>Source Files\formation\party</Filter>
+    </ClInclude>
+    <ClInclude Include="formation_database.h">
+      <Filter>Source Files\databases\formation</Filter>
+    </ClInclude>
+    <ClInclude Include="config_status_menu.h">
+      <Filter>Source Files\scene\scene_menus\status menu\config menu</Filter>
+    </ClInclude>
+    <ClInclude Include="npc.h">
+      <Filter>Source Files\units\npc</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_party.h">
+      <Filter>Source Files\units\party\enemy party</Filter>
+    </ClInclude>
+    <ClInclude Include="party.h">
+      <Filter>Source Files\units\party\player party</Filter>
+    </ClInclude>
+    <ClInclude Include="party_base.h">
+      <Filter>Source Files\units\party</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_party_database.h">
+      <Filter>Source Files\databases\enemy parties</Filter>
+    </ClInclude>
+    <ClInclude Include="char_anim_controller.h">
+      <Filter>Source Files\animation\character\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="char_anim.h">
+      <Filter>Source Files\animation\character\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="char_btl_anim_controller.h">
+      <Filter>Source Files\animation\character\controller\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="char_anim_controller_manager.h">
+      <Filter>Source Files\controller managers\animation\character</Filter>
+    </ClInclude>
+    <ClInclude Include="char_map_anim_controller.h">
+      <Filter>Source Files\animation\character\controller\map</Filter>
+    </ClInclude>
+    <ClInclude Include="condition_controller.h">
+      <Filter>Source Files\controllers\event\condition</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_controller.h">
+      <Filter>Source Files\controllers\event\condition\talk</Filter>
+    </ClInclude>
+    <ClInclude Include="talk_condition.h">
+      <Filter>Source Files\conditions\talk</Filter>
+    </ClInclude>
+    <ClInclude Include="map_obj_controller.h">
+      <Filter>Source Files\controllers\event\condition\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="map_obj_condition.h">
+      <Filter>Source Files\conditions\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="text_box_controller.h">
+      <Filter>Source Files\controllers\text box</Filter>
+    </ClInclude>
+    <ClInclude Include="notification_box.h">
+      <Filter>Source Files\text_box\notification</Filter>
+    </ClInclude>
+    <ClInclude Include="text_box_settings_database.h">
+      <Filter>Source Files\databases\text box</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\cpp_assert.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chest_obj_condition.h">
+      <Filter>Source Files\conditions\map_objects\chest</Filter>
+    </ClInclude>
+    <ClInclude Include="door_obj_condition.h">
+      <Filter>Source Files\conditions\map_objects\door</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_menu.h">
+      <Filter>Source Files\scene\scene_menus\sub_menu</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\initial menu</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_buy_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\buy menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sub_shop_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\sub shop menu</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_confirm_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\confirm menu</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_amount_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\amount menu</Filter>
+    </ClInclude>
+    <ClInclude Include="sell_shop_menu.h">
+      <Filter>Source Files\scene\scene_menus\shop\sell shop</Filter>
+    </ClInclude>
+    <ClInclude Include="shop_database.h">
+      <Filter>Source Files\databases\shop</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_block_database.h">
+      <Filter>Source Files\databases\unit_block</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_block_handler.h">
+      <Filter>Source Files\handlers\event</Filter>
+    </ClInclude>
+    <ClInclude Include="always_trigger_controller.h">
+      <Filter>Source Files\controllers\event\condition\always_trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="always_trigger_condition.h">
+      <Filter>Source Files\conditions\always_trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="game_over_scene.h">
+      <Filter>Source Files\scene\scene_menus\game over</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Source Files\menus\battle</Filter>
+    </ClInclude>
+    <ClInclude Include="text_anim.h">
+      <Filter>Source Files\animation\text</Filter>
+    </ClInclude>
+    <ClInclude Include="ai_database.h">
+      <Filter>Source Files\databases\ai</Filter>
+    </ClInclude>
+    <ClInclude Include="buff_base.h">
+      <Filter>Source Files\buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="buff_database.h">
+      <Filter>Source Files\databases\buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="buff_manager.h">
+      <Filter>Source Files\buffs\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="buff_battle_manager.h">
+      <Filter>Source Files\buffs\battle manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

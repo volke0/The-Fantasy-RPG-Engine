@@ -1,0 +1,21 @@
+{
+    "enemies":
+    {
+        "width": 53, 
+        "height": 38, 
+        "scale": 3,
+        "max_colors": 32
+    },
+    "peeper":
+    {
+        "width": 44,
+        "height": 44,
+        "max_colors": 32
+    },
+    "bombo_bandit_i":
+    {
+        "width": 55,
+        "height": 60,
+        "max_colors": 32
+    }
+}

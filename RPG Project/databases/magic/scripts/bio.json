@@ -1,0 +1,13 @@
+{
+    "name": "Bio",
+    "c_name": "bio",
+    "type": "dmg",
+    "elem_type": "none",
+    "power": 34,
+    "hit": 150,
+    "target_type": "single",
+    "descr": "A noxous magic gas.",
+    "cost": 10,
+    "cost_type": "mp",
+    "animation": "vfx_bio"
+}

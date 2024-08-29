@@ -1,0 +1,24 @@
+✔️ - make the fade system
+✔️ - make the timer system
+✔️ - make the level class
+✔️ - make the party class
+✔️ - make the map class
+✔️ - make the level database
+✔️ - make the camera
+✔️ - make the collision handler
+✔️ - make the base controller class
+✔️ - make the event controller
+✔️ - make the area condition controller
+✔️ - make the condition class
+✔️ - make the area condition class
+✔️ - make the basic dialogue system
+✔️ - make the unit database
+✔️ - make a playable character
+✔️ - make more types of area conditions
+✔️ - make an enemy unit
+• - make the camera move with events
+• - make units move with events
+• - make battle system
+
+
+10:47 am

@@ -1,0 +1,13 @@
+[
+    {"id": 0, "title": "Ruined Cave", "map": "death_cave_start", 
+     "events": "death_cave_start", "music": "rs2_the_dragons_hole", 
+     "encounters": [{"enemy_party": "peeper_partytime", "encounter_rate": 0.30}, {"enemy_party": 1, "encounter_rate": 0.80}],
+     "battle_music": "ff6_battle_theme"
+    },
+     
+    {"id": 1, "title": "Ruined Cave", "map": "death_cave_2", 
+     "events": "death_cave_1_test", "music": "rs2_the_dragons_hole", 
+     "encounters": [{"enemy_party": "peeper_partytime", "encounter_rate": 0.30}, {"enemy_party": 1, "encounter_rate": 0.80}],
+     "battle_music": "ff6_battle_theme"
+    }
+]

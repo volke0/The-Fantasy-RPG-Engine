@@ -1,0 +1,28 @@
+{
+    "name": "bombo_bandit_i",
+    "ingame_name": "Bombo Bandit I",
+    "type": "enemy",
+    "color": "red",
+    "equipment": {"r_hand": "bronze_dagger"},
+    "stats": {"lvl": 8,
+              "hp": 734, 
+              "mp": 40, 
+              "str": 13, 
+              "mag": 0, 
+              "skl": 8, 
+              "spd": 7, 
+              "lck": 9, 
+              "def": 13, 
+              "res": 5,
+              "con": 8,
+              "exp": 0,
+              "slv": 1000},
+    "equipment_rank": {
+        "weapon":["dagger"]
+    },
+    "loot": {"silver": 500, "exp": 334},
+    "growth_rates": {},
+    "skills": {},
+    "AI": {"battle": "bombo_bandit_ai"},
+    "animations": "bombo_bandit_i_anim"
+}

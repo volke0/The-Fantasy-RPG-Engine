@@ -1,0 +1,13 @@
+{
+    "name": "ava",
+    "ingame_name": "Ava",
+    "type": "ally",
+    "class": "cutpurse",
+    "color": "pink",
+    "stats": {},
+    "growth_rates": {},
+    "equipment_rank": {
+        "weapon":["dagger"]
+    },
+    "skills": {}
+}

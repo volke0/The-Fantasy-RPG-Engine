@@ -1,0 +1,29 @@
+{
+    "name": "goblin_i",
+    "ingame_name": "Goblin I",
+    "type": "enemy",
+    "color": "red",
+    "equipment": {"r_hand": "bronze_dagger"},
+    "magic": ["heal"],
+    "stats": {"lvl": 4,
+              "hp": 84, 
+              "mp": 10, 
+              "str": 11, 
+              "mag": 1, 
+              "skl": 6, 
+              "spd": 6, 
+              "lck": 4, 
+              "def": 4, 
+              "res": 5,
+              "con": 4,
+              "exp": 21,
+              "slv": 10},
+    "equipment_rank": {
+        "weapon":["dagger"]
+    },
+    "loot": {"silver": 50, "exp": 34},
+    "growth_rates": {},
+    "skills": {},
+    "AI": {"battle": "basic_battle_ai"},
+    "animations": "goblin_i_anim"
+}

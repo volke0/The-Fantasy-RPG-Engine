@@ -1,0 +1,27 @@
+{
+    "Settings":
+    [
+        {
+            "name": "magic_use",
+            "graphics": "effects",
+            "sprite_settings": "vfx_spr"
+        }
+    ],
+
+    "Animation":
+    [
+        {"name": "magic_use", "mode": "battle", "unit": "user", "repeat": false},
+        {"sheet": "magic_use", "frame": 1, "dx": 0, "dy": 0, "fps": 1, "sfx": "magic_use", "on_character": true, "alpha": 190, "blend_mode": 1},
+        {"sheet": "magic_use", "frame": 2, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 3, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 4, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 5, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 6, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 7, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 8, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 9, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 10, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "magic_use", "frame": 11, "dx": 0, "dy": 0, "fps": 1, "on_character": true, "alpha": 190},
+        {"sheet": "null", "fps": 25, "alpha": 255}
+    ]
+}

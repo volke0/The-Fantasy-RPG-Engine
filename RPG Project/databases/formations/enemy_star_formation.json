@@ -1,0 +1,34 @@
+{
+    "Settings":
+    {
+        "mode": "static",
+        "name": "peeper_star_formation"
+    },
+    "Formation":
+    {
+        "1": {
+              "x": [{"tTile": 5}], 
+              "y": [{"tTile": 2}]
+             },
+
+        "4": {
+              "x": [{"tTile": 1}], 
+              "y": [{"tTile": 6}]
+             },
+
+        "5": {
+              "x": [{"tTile": 1}],
+              "y": [{"tTile": 2}]
+             },
+
+        "2": {
+              "x": [{"tTile": 5}],
+              "y": [{"tTile": 6}]             
+             },
+
+        "3": {
+              "x": [{"tTile": 3}],
+              "y": [{"tTile": 4}]         
+             }
+    }
+}

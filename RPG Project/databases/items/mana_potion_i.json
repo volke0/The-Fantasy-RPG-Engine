@@ -1,0 +1,13 @@
+{
+    "c_name": "mana_potion_i",
+    "name": "Mana Potion I",
+    "inventory_usable": true,
+    "description": "Heals the target's MP by~50.",
+    "type": "consumable",
+    "stackable" : true,
+    "sub_type": "heal",
+    "heal_type": "mp",
+    "amount": 50,
+    "animations": "vfx_heal_potion_i",
+    "price": 10
+}

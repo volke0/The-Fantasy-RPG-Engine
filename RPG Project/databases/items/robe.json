@@ -1,0 +1,15 @@
+{
+    "c_name": "robe",
+    "name": "Robe",
+    "type": "equipment",
+    "sub_type": "armor",
+    "armor_type": "cloth",
+    "description": "A normal mage robe.",
+    "stackable" : false,
+    "dual_wield": false,
+    "stats": {"block": 0, "mag_def": 6, "weight": 1, "avoid": 4},
+    "bonus_stats": {"strength": 0, "speed": 0},
+    "growth_rates": {},
+    "skills": {},
+    "price": 25
+}
