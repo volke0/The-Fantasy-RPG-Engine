@@ -1,7 +1,10 @@
-# The Fantasy RPG Engine
-The license pertaining to this engine pertains only to the source code files that were written by me, Volke0.  Other files (such as the resoource folder whose link is provided below) are NOT covered by the license.
+# DISCLAIMER
+The license pertaining to this engine pertains only to the source code files that were written by me, Volke0. Other files (such as the resources folder whose link is provided below) are NOT covered by the license.
 
 The library dependency cpp_assert.hpp is also NOT included under the license due to the code being used by another source online and me heavily modifying it.
+
+# The Fantasy RPG Engine
+This is a classic RPG engine written in C++ and powered by raylib.
 
 # Compiling the Engine
 To compile this engine you need to have the following packages installed via vcpkg:
