@@ -21,7 +21,7 @@ But, to make this example game run you need to download the **resources**.rar fi
 
 Make sure you include it in the same folder as the .exe AND the databases for the program to run!
 
-BUT, if you prefer not to hassle with compiling feel free to download the compiled engine from the Release section above.
+BUT, if you prefer not to hassle with compiling feel free to download the compiled engine from the Releases section above.
 
 # Future Plans
 I plan on finishing the demo game to be in a more playable state and then making a video about it!
