@@ -17,7 +17,14 @@ Once that is all taken care of, you must then launch the .sln to then compile th
 
 # Setting up the Engine
 Make sure to check out my example game to see how this thing runs and the documentation included in the appropiate folders as well.
-But, to make this example game run you need to download the **resources** folder for this thing to work --> https://www.mediafire.com/file/3b1l2pa5zu7e1xi/resources.rar/file
+But, to make this example game run you need to download the **resources**.rar file and extract it for this thing to work --> https://www.mediafire.com/file/3b1l2pa5zu7e1xi/resources.rar/file
 
 Make sure you include it in the same folder as the .exe AND the databases for the program to run!
+
+BUT, if you prefer not to hassle with compiling feel free to download the compiled engine from the Release section above.
+
+# Future Plans
+I plan on finishing the demo game to be in a more playable state and then making a video about it!
+
+This project is otherwise paused for the meantime. I'll probably come back to this at some point and finish it completely.
 
