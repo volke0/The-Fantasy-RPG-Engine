@@ -3,7 +3,7 @@ The license pertaining to this engine pertains only to the source code files tha
 
 The library dependency cpp_assert.hpp is also NOT included under the license due to the code being used by another source online and me heavily modifying it.
 
-# COMPILING THE ENGINE
+# Compiling the Engine
 To compile this engine you need to have the following packages installed via vcpkg:
 - jsoncpp
 - boost--algorithm
