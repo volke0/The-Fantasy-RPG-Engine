@@ -13,7 +13,7 @@ To compile this engine you need to have the following packages installed via vcp
 
 After all of the above are installed make sure to then run "vcpkg integrate install" without the quotes.
 
-Once that is all taken care of, you must then launch the .sln to then compile the engine and voila! 
+Once that is all taken care of, you must then launch the .sln to then compile the engine and voila! You have a fully compiled engine!
 
 # Setting up the Engine
 Make sure to check out my example game to see how this thing runs and the documentation included in the appropiate folders as well.
